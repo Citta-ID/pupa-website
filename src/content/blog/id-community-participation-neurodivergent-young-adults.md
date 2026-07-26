@@ -4,7 +4,7 @@ date: 2026-05-15
 translationKey: "community-participation"
 lang: id
 slug: "community-participation-neurodivergent-young-adults-id"
-image: "/images/blog-community-participation.jpg"
+image: "/images/afm-9647.jpg"
 description: "Partisipasi dalam komunitas adalah bagian penting dari kedewasaan dan kemandirian. Kesempatan berpartisipasi di lingkungan komunitas membantu membangun kepercayaan diri dan keterampilan sosial."
 ---
 

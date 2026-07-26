@@ -4,7 +4,7 @@ date: 2026-10-15
 translationKey: "inclusive-workplaces"
 lang: ko
 slug: "inclusive-workplaces-neurodivergent-employees-ko"
-image: "/images/blog-inclusive-workplaces.jpg"
+image: "/images/afm-9042.jpg"
 description: "편의 제공은 시혜도, 기준을 낮추는 일도 아닙니다. 유능한 사람이 최선을 낼 수 있게 하는 작은 조정입니다. 의사소통부터 문화까지, 신경다양성 직원을 위한 포용적 일터를 만드는 실천 안내."
 ---
 

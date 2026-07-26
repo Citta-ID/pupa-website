@@ -4,7 +4,7 @@ date: 2026-05-15
 translationKey: "community-participation"
 lang: en
 slug: "community-participation-neurodivergent-young-adults"
-image: "/images/blog-community-participation.jpg"
+image: "/images/afm-9647.jpg"
 description: "Community participation is an important part of adulthood and independence. For autistic and neurodivergent young adults, opportunities to participate in community environments can"
 ---
 

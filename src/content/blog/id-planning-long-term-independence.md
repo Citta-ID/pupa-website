@@ -4,7 +4,7 @@ date: 2026-11-15
 translationKey: "long-term-planning"
 lang: id
 slug: "planning-long-term-independence-id"
-image: "/images/blog-long-term-independence.jpg"
+image: "/images/a6701896.jpg"
 description: "Banyak orang tua anak neurodivergen memendam satu pertanyaan: apa yang terjadi ketika kami tak lagi ada? Bagaimana keluarga merencanakan kemandirian jangka panjang — langkah demi langkah, lingkaran demi lingkaran — dengan tetap menempatkan suara anak muda di pusatnya."
 ---
 

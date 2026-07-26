@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "enzo"
 lang: en
 slug: "enzo-story"
-image: "/images/enzo-story.jpg"
+image: "/images/afm-9263.jpg"
 description: "Growth often begins with small but meaningful changes, and **Fiecenzo Hutahaean**’s journey at PUPA Center reflects that process. When Enzo first joined PUPA Mandiri, he showed strong preferences fo"
 ---
 

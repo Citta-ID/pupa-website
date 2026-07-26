@@ -4,7 +4,7 @@ date: 2026-08-15
 translationKey: "adulthood-transition"
 lang: id
 slug: "neurodivergent-adulthood-transition-indonesia-id"
-image: "/images/activity-computer-06.jpg"
+image: "/images/pupa-group-9707.jpg"
 description: "Transisi menuju kedewasaan dapat menjadi periode yang menantang bagi banyak keluarga dewasa muda autistik dan neurodivergen di Indonesia, terutama setelah pendidikan formal berakhir."
 ---
 

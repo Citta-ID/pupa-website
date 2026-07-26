@@ -4,7 +4,7 @@ date: 2026-02-06
 translationKey: "kyle"
 lang: en
 slug: "kyle-story"
-image: "/images/kyle-story.jpg"
+image: "/images/screenshot-2026-02-02-192840.jpg"
 description: "When Kyle first arrived at PUPA Center, the future beyond the classroom was still an open question. This is the story of how, step by step, he built the confidence — and the career — that followed."
 ---
 

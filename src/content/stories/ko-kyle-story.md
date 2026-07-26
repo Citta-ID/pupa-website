@@ -4,7 +4,7 @@ date: 2026-02-06
 translationKey: "kyle"
 lang: ko
 slug: "kyle-ko"
-image: "/images/kyle-story.jpg"
+image: "/images/screenshot-2026-02-02-192840.jpg"
 description: "모든 여정에는 그 끝과 달라 보이는 시작이 있습니다. PUPA 센터 자립 프로그램에서 조용히 시작한 Kyle이 한 걸음씩 자신감과 일자리를 찾아간 이야기."
 ---
 

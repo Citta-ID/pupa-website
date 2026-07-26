@@ -4,7 +4,7 @@ date: 2026-03-15
 translationKey: "life-skills"
 lang: id
 slug: "life-skills-autistic-young-adults-id"
-image: "/images/blog-life-skills.jpg"
+image: "/images/a6701680.jpg"
 description: "Kecakapan hidup adalah bagian penting dalam mempersiapkan dewasa muda autistik dan neurodivergen menuju kedewasaan. Keterampilan sehari-hari sama pentingnya dengan pembelajaran akademis."
 ---
 

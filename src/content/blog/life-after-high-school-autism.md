@@ -4,7 +4,7 @@ date: 2026-07-15
 translationKey: "life-after-high-school"
 lang: en
 slug: "life-after-high-school-autism"
-image: "/images/blog-life-after-high-school.jpg"
+image: "/images/img-0559-1.jpg"
 description: "For many families, a high school diploma is a doorway to adulthood. For autistic and neurodivergent young adults, the years after school can feel uncertain — and raise one recurring question: what comes next?"
 ---
 

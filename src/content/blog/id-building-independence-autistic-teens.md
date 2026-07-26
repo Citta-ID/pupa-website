@@ -4,7 +4,7 @@ date: 2026-04-15
 translationKey: "building-independence"
 lang: id
 slug: "building-independence-autistic-teens-id"
-image: "/images/blog-building-independence.jpg"
+image: "/images/a6701958.jpg"
 description: "Kemandirian adalah salah satu tujuan jangka panjang yang paling umum dimiliki keluarga bagi remaja autistik. Banyak orang tua berharap anak mereka tumbuh menjadi lebih percaya diri dan mandiri."
 ---
 

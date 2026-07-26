@@ -4,7 +4,7 @@ date: 2026-11-15
 translationKey: "long-term-planning"
 lang: en
 slug: "planning-long-term-independence"
-image: "/images/blog-long-term-independence.jpg"
+image: "/images/a6701896.jpg"
 description: "Many parents of a neurodivergent child carry one quiet question: what happens when we are gone? How families can plan for lifelong independence — step by step, circle by circle — while keeping the young adult’s own voice at the center."
 ---
 

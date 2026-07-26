@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "akbar"
 lang: id
 slug: "akbar-cerita"
-image: "/images/akbar-story.jpg"
+image: "/images/afm-9305.jpg"
 description: "**AKBAR WISNU WARDHANA**. Masa **Akbar** di PUPA Center dimulai sejak ia masih remaja. Melalui proses pendampingan program PUPA Mandiri hingga saat ini pada divisi PUPA Karya. Di s"
 ---
 

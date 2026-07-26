@@ -4,7 +4,7 @@ date: 2026-02-15
 translationKey: "structured-routines"
 lang: en
 slug: "structured-routines-autistic-young-adults"
-image: "/images/blog-structured-routines.jpg"
+image: "/images/a6701722.jpg"
 description: "Structured routines play an important role in supporting many autistic and neurodivergent young adults. Predictable routines can help reduce anxiety, improve participation, strengt"
 ---
 

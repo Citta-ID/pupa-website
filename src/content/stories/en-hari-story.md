@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "hari"
 lang: en
 slug: "hari-story"
-image: "/images/hari-story.jpg"
+image: "/images/afm-9358.jpg"
 description: "Hari’s journey at PUPA Center began with a strong commitment to building his independence and prepare for the world of work. Over the course of three years in PUPA Center’s job pre"
 ---
 

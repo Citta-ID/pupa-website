@@ -4,7 +4,7 @@ date: 2026-01-15
 translationKey: "executive-function"
 lang: id
 slug: "executive-function-neurodivergent-young-adults-id"
-image: "/images/blog-executive-function.jpg"
+image: "/images/a6701555-edited.jpg"
 description: "Fungsi eksekutif merujuk pada sekelompok keterampilan mental yang membantu individu mengatur, merencanakan, mengelola tugas, meregulasi emosi, dan beradaptasi dengan situasi sehari-hari."
 ---
 

@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "hari"
 lang: id
 slug: "hari-cerita"
-image: "/images/hari-story.jpg"
+image: "/images/afm-9358.jpg"
 description: "Perjalanan **ARDHANA HARIWIDAGDO**, biasa kami kenal dengan nama **HARI** di PUPA Center dimulai dari komitmennya yang kuat untuk membangun kemandirian dan kesiapan memasuki dunia kerja."
 ---
 

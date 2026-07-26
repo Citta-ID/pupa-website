@@ -4,7 +4,7 @@ date: 2026-07-15
 translationKey: "life-after-high-school"
 lang: ko
 slug: "life-after-high-school-autism-ko"
-image: "/images/blog-life-after-high-school.jpg"
+image: "/images/img-0559-1.jpg"
 description: "많은 가족에게 고등학교 졸업은 성인기로 들어서는 문턱입니다. 하지만 자폐와 신경다양성 청년에게 학교 이후의 시간은 불확실하게 느껴지고, 같은 질문을 되풀이하게 합니다 — 다음은 무엇일까?"
 ---
 

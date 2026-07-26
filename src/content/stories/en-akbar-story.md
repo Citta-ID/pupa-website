@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "akbar"
 lang: en
 slug: "akbar-story"
-image: "/images/akbar-story.jpg"
+image: "/images/afm-9305.jpg"
 description: "Akbar’s journey at PUPA Center began when he was still a teenager. Over the years, he grew and developed alongside PUPA Center, engaging in a long-term, structured process that sup"
 ---
 

@@ -4,7 +4,7 @@ date: 2026-11-15
 translationKey: "long-term-planning"
 lang: ko
 slug: "planning-long-term-independence-ko"
-image: "/images/blog-long-term-independence.jpg"
+image: "/images/a6701896.jpg"
 description: "신경다양성 자녀를 둔 많은 부모가 품는 질문 — 우리가 없을 때 아이는 어떻게 될까? 청년의 목소리를 중심에 둔 채, 한 걸음씩 그리고 여러 둘레로 평생의 자립을 계획하는 방법을 이야기합니다."
 ---
 

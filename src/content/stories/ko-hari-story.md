@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "hari"
 lang: ko
 slug: "hari-ko"
-image: "/images/hari-story.jpg"
+image: "/images/afm-9358.jpg"
 description: "Hari의 PUPA 센터 여정은 자립을 다지고 일의 세계를 준비하겠다는 굳은 결심에서 시작되었습니다. 3년간의 취업 준비 훈련 프로그램에서 그는 실용적인 기술과 자신감, 자기 이해를 키우는 체계적인 배움에 적극적으로 참여했습니다."
 ---
 

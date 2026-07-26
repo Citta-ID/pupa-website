@@ -4,7 +4,7 @@ date: 2026-07-15
 translationKey: "life-after-high-school"
 lang: id
 slug: "life-after-high-school-autism-id"
-image: "/images/blog-life-after-high-school.jpg"
+image: "/images/img-0559-1.jpg"
 description: "Di banyak keluarga, kelulusan SMA dirayakan sebagai gerbang kemandirian. Namun bagi dewasa muda autistik dan neurodivergen, babak setelah sekolah kerap terasa berbeda — dan memunculkan satu pertanyaan yang berulang: setelah ini, ke mana?"
 ---
 

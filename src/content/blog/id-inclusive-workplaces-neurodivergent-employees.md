@@ -4,7 +4,7 @@ date: 2026-10-15
 translationKey: "inclusive-workplaces"
 lang: id
 slug: "inclusive-workplaces-neurodivergent-employees-id"
-image: "/images/blog-inclusive-workplaces.jpg"
+image: "/images/afm-9042.jpg"
 description: "Akomodasi bukan belas kasihan atau penurunan standar, melainkan penyesuaian kecil agar orang yang cakap bisa memberi yang terbaik. Panduan praktis membangun tempat kerja inklusif bagi karyawan neurodivergen — dari komunikasi hingga budaya kerja."
 ---
 

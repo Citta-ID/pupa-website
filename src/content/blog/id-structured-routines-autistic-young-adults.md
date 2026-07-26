@@ -4,7 +4,7 @@ date: 2026-02-15
 translationKey: "structured-routines"
 lang: id
 slug: "structured-routines-autistic-young-adults-id"
-image: "/images/blog-structured-routines.jpg"
+image: "/images/a6701722.jpg"
 description: "Rutinitas terstruktur berperan penting dalam mendukung banyak individu autistik dan neurodivergen. Rutinitas yang dapat diprediksi membantu mengurangi kecemasan dan memperkuat kemandirian."
 ---
 

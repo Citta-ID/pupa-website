@@ -4,7 +4,7 @@ date: 2026-03-15
 translationKey: "life-skills"
 lang: ko
 slug: "life-skills-autistic-young-adults-ko"
-image: "/images/blog-life-skills.jpg"
+image: "/images/a6701680.jpg"
 description: "생활 기술은 자폐와 신경다양성 청년의 성인기 준비에서 빼놓을 수 없는 부분입니다. 학업도 중요하지만, 일상생활 기술은 자립과 자신감, 지역사회에서의 의미 있는 참여를 뒷받침하는 데 그에 못지않은 역할을 합니다."
 ---
 

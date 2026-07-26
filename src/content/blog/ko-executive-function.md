@@ -4,7 +4,7 @@ date: 2026-01-15
 translationKey: "executive-function"
 lang: ko
 slug: "executive-function-neurodivergent-young-adults-ko"
-image: "/images/blog-executive-function.jpg"
+image: "/images/a6701555-edited.jpg"
 description: "실행 기능이란 정리하고 계획하고 과제를 관리하며, 감정을 조절하고 일상의 상황에 적응하도록 돕는 정신적 기술의 묶음을 말합니다. 많은 자폐·신경다양성 청년이 실행 기능에서 어려움을 겪습니다."
 ---
 

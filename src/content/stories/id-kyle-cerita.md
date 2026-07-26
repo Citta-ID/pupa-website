@@ -4,7 +4,7 @@ date: 2026-02-06
 translationKey: "kyle"
 lang: id
 slug: "kyle-cerita"
-image: "/images/kyle-story.jpg"
+image: "/images/screenshot-2026-02-02-192840.jpg"
 description: "Pada mulanya, Kyle Angelo Rompas nyaris tak bersuara — remaja 18 tahun yang sangat tertutup. Inilah kisah bagaimana, langkah demi langkah, ia menemukan suara, kepercayaan diri, dan akhirnya sebuah karier."
 ---
 

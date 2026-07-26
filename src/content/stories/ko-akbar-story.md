@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "akbar"
 lang: ko
 slug: "akbar-ko"
-image: "/images/akbar-story.jpg"
+image: "/images/afm-9305.jpg"
 description: "Akbar의 PUPA 센터 여정은 그가 아직 십대이던 시절에 시작되었습니다. 여러 해에 걸쳐 그는 PUPA 센터와 함께 자라며, 개인적 성장과 자립, 성인기 준비를 뒷받침하는 장기적이고 체계적인 과정에 참여했습니다."
 ---
 

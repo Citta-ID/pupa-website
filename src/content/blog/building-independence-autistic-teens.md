@@ -4,7 +4,7 @@ date: 2026-04-15
 translationKey: "building-independence"
 lang: en
 slug: "building-independence-autistic-teens"
-image: "/images/blog-building-independence.jpg"
+image: "/images/a6701958.jpg"
 description: "Independence is one of the most common long-term goals families have for autistic teenagers. Many parents hope their children will eventually become more confident, responsible, an"
 ---
 

@@ -4,7 +4,7 @@ date: 2026-12-15
 translationKey: "belonging-community"
 lang: en
 slug: "belonging-community-connection"
-image: "/images/blog-belonging-community.jpg"
+image: "/images/afm-9733.jpg"
 description: "A job gives structure and income, but belonging sits close to the center of a meaningful life. On friendship, inclusive spaces, and community for neurodivergent young adults — a warm note to close the year."
 ---
 

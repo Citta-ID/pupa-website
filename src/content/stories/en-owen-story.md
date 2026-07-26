@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "owen"
 lang: en
 slug: "owen-story"
-image: "/images/owen-story.jpg"
+image: "/images/afm-8982.jpg"
 description: "Owen’s journey at PUPA Center began when he joined the work-readiness program, where participants are supported in preparing for employment through structured training, skill devel"
 ---
 

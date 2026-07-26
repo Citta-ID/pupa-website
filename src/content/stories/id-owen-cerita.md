@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "owen"
 lang: id
 slug: "owen-cerita"
-image: "/images/owen-story.jpg"
+image: "/images/afm-8982.jpg"
 description: "Langkah **OWEN ALBIE SAPUTRA** (Owen) di PUPA Center dimulai dari program kesiapan kerja. Pada program tersebut, Owen dikenalkan pada proses interaksi yang terjadi pada ruang lingk"
 ---
 

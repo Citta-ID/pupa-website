@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "owen"
 lang: ko
 slug: "owen-ko"
-image: "/images/owen-story.jpg"
+image: "/images/afm-8982.jpg"
 description: "Owen의 PUPA 센터 여정은 취업 준비 프로그램에 합류하면서 시작되었습니다. 이곳에서 참여자들은 체계적인 훈련과 기술 개발, 실제 현장 경험을 통해 고용을 준비합니다."
 ---
 

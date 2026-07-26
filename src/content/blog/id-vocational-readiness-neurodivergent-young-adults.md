@@ -4,7 +4,7 @@ date: 2026-06-15
 translationKey: "vocational-readiness"
 lang: id
 slug: "vocational-readiness-neurodivergent-young-adults-id"
-image: "/images/blog-vocational-readiness.jpg"
+image: "/images/dji-20260112112138-0105-d-pa2.jpg"
 description: "Kesiapan kerja adalah bagian penting dalam mempersiapkan dewasa muda neurodivergen menuju kedewasaan dan partisipasi komunitas. Pengalaman terkait kerja membantu membangun kepercayaan diri."
 ---
 

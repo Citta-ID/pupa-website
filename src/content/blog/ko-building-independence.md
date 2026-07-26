@@ -4,7 +4,7 @@ date: 2026-04-15
 translationKey: "building-independence"
 lang: ko
 slug: "building-independence-autistic-teens-ko"
-image: "/images/blog-building-independence.jpg"
+image: "/images/a6701958.jpg"
 description: "자립은 자폐 청소년을 둔 가족들이 가장 흔히 품는 장기 목표 중 하나입니다. 많은 부모가 자녀가 언젠가 더 자신감 있고 책임감 있게, 일상의 여러 부분을 스스로 해내기를 바랍니다."
 ---
 

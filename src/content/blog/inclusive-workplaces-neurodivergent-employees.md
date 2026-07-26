@@ -4,7 +4,7 @@ date: 2026-10-15
 translationKey: "inclusive-workplaces"
 lang: en
 slug: "inclusive-workplaces-neurodivergent-employees"
-image: "/images/blog-inclusive-workplaces.jpg"
+image: "/images/afm-9042.jpg"
 description: "An accommodation is not a favor or a lowering of standards — it is a small adjustment so a capable person can do their best work. A practical guide to inclusive workplaces for neurodivergent employees, from communication to culture."
 ---
 

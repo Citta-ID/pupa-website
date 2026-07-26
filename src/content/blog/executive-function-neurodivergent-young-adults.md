@@ -4,7 +4,7 @@ date: 2026-01-15
 translationKey: "executive-function"
 lang: en
 slug: "executive-function-neurodivergent-young-adults"
-image: "/images/blog-executive-function.jpg"
+image: "/images/a6701555-edited.jpg"
 description: "Executive functioning refers to a group of mental skills that help individuals organize, plan, manage tasks, regulate emotions, and adapt to daily situations. Many autistic and neu"
 ---
 

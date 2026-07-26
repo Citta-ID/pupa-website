@@ -4,7 +4,7 @@ date: 2026-02-15
 translationKey: "structured-routines"
 lang: ko
 slug: "structured-routines-autistic-young-adults-ko"
-image: "/images/blog-structured-routines.jpg"
+image: "/images/a6701722.jpg"
 description: "체계적인 루틴은 많은 자폐·신경다양성 청년을 지원하는 데 중요한 역할을 합니다. 예측 가능한 루틴은 불안을 줄이고 참여를 높이며, 자립을 단단히 하고 일상에 더 큰 안정감을 만들어 줄 수 있습니다."
 ---
 

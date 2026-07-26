@@ -4,7 +4,7 @@ date: 2026-08-15
 translationKey: "adulthood-transition"
 lang: ko
 slug: "neurodivergent-adulthood-transition-indonesia-ko"
-image: "/images/activity-computer-06.jpg"
+image: "/images/pupa-group-9707.jpg"
 description: "성인기로의 전환은 인도네시아의 많은 자폐·신경다양성 청년 가족에게 쉽지 않은 시기입니다. 정규 교육이 끝나면 부모들은 자립과 지역사회 참여, 장기적인 성장을 도울 기회를 찾아 나서게 됩니다."
 ---
 

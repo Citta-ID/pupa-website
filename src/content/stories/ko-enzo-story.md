@@ -4,7 +4,7 @@ date: 2019-05-28
 translationKey: "enzo"
 lang: ko
 slug: "enzo-ko"
-image: "/images/enzo-story.jpg"
+image: "/images/afm-9263.jpg"
 description: "성장은 작지만 의미 있는 변화에서 시작되는 경우가 많고, Enzo의 PUPA 센터 여정이 바로 그 과정을 보여 줍니다. PUPA Mandiri에 처음 합류했을 때 Enzo는 구조와 루틴에 대한 강한 선호를 보였습니다."
 ---
 

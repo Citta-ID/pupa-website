@@ -4,7 +4,7 @@ date: 2026-12-15
 translationKey: "belonging-community"
 lang: id
 slug: "belonging-community-connection-id"
-image: "/images/blog-belonging-community.jpg"
+image: "/images/afm-9733.jpg"
 description: "Pekerjaan memberi keteraturan dan penghasilan, tetapi rasa memiliki dekat dengan pusat kehidupan yang bermakna. Tentang persahabatan, ruang inklusif, dan komunitas bagi dewasa muda neurodivergen — sebuah catatan hangat menutup tahun."
 ---
 

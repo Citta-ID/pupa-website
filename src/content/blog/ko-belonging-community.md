@@ -4,7 +4,7 @@ date: 2026-12-15
 translationKey: "belonging-community"
 lang: ko
 slug: "belonging-community-connection-ko"
-image: "/images/blog-belonging-community.jpg"
+image: "/images/afm-9733.jpg"
 description: "일은 규칙과 수입을 주지만, 소속감은 의미 있는 삶의 중심에 가깝습니다. 신경다양성 청년을 위한 우정과 포용적 공간, 그리고 공동체에 관한 이야기 — 한 해를 닫는 따뜻한 편지."
 ---
 
