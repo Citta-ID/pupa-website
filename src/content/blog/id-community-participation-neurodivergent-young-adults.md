@@ -1,6 +1,6 @@
 ---
 title: "Mempersiapkan Dewasa Muda Neurodivergen untuk Berpartisipasi di Komunitas"
-date: 2026-05-15
+date: 2026-05-01
 translationKey: "community-participation"
 lang: id
 slug: "community-participation-neurodivergent-young-adults-id"

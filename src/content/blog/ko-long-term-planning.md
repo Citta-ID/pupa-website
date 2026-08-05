@@ -1,6 +1,6 @@
 ---
 title: "길게 내다보는 계획: 가족은 평생의 자립을 어떻게 떠받치는가"
-date: 2026-11-15
+date: 2026-11-01
 translationKey: "long-term-planning"
 lang: ko
 slug: "planning-long-term-independence-ko"

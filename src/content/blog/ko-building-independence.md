@@ -1,6 +1,6 @@
 ---
 title: "자폐 청소년의 자립을 키우는 방법"
-date: 2026-04-15
+date: 2026-04-01
 translationKey: "building-independence"
 lang: ko
 slug: "building-independence-autistic-teens-ko"

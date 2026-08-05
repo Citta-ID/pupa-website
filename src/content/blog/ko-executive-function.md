@@ -1,6 +1,6 @@
 ---
 title: "신경다양성 청년의 실행 기능 어려움 이해하기"
-date: 2026-01-15
+date: 2026-01-01
 translationKey: "executive-function"
 lang: ko
 slug: "executive-function-neurodivergent-young-adults-ko"

@@ -1,6 +1,6 @@
 ---
 title: "Belonging Beyond Work: Friendship and Community for Neurodivergent Young Adults"
-date: 2026-12-15
+date: 2026-12-01
 translationKey: "belonging-community"
 lang: en
 slug: "belonging-community-connection"

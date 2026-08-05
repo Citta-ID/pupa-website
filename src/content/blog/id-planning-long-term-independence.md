@@ -1,6 +1,6 @@
 ---
 title: "Merencanakan Jangka Panjang: Bagaimana Keluarga Menopang Kemandirian Seumur Hidup"
-date: 2026-11-15
+date: 2026-11-01
 translationKey: "long-term-planning"
 lang: id
 slug: "planning-long-term-independence-id"

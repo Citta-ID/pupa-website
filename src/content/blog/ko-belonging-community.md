@@ -1,6 +1,6 @@
 ---
 title: "일 너머의 소속감: 신경다양성 청년을 위한 우정과 공동체"
-date: 2026-12-15
+date: 2026-12-01
 translationKey: "belonging-community"
 lang: ko
 slug: "belonging-community-connection-ko"

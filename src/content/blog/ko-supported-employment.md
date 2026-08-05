@@ -1,6 +1,6 @@
 ---
 title: "지원 고용: 잡 코칭은 신경다양성 청년이 일터에서 성장하도록 어떻게 돕는가"
-date: 2026-09-15
+date: 2026-09-01
 translationKey: "supported-employment"
 lang: ko
 slug: "supported-employment-job-coaching-ko"

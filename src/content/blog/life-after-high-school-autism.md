@@ -1,6 +1,6 @@
 ---
 title: "What Happens After High School for Autistic Young Adults?"
-date: 2026-07-15
+date: 2026-07-01
 translationKey: "life-after-high-school"
 lang: en
 slug: "life-after-high-school-autism"
