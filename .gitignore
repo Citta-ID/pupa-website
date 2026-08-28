@@ -1,1 +1,10 @@
 .DS_Store
+
+# Build output and dependencies
+node_modules/
+dist/
+.astro/
+
+# iCloud duplicate files (e.g. "content.config 2.ts")
+* [0-9].*
+* [0-9]
