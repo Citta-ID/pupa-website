@@ -42,17 +42,6 @@ const leaders = [
     },
   },
   {
-    name: 'Christine Santoso',
-    photo: '/images/team/christine-santoso.jpg',
-    alt: { en: 'Christine Santoso, Head of Business & Enterprise', id: 'Christine Santoso, Kepala Bisnis & Enterprise', ko: '비즈니스·엔터프라이즈 총괄 Christine Santoso' },
-    role: { en: 'Head of Business & Enterprise', id: 'Kepala Bisnis & Enterprise', ko: '비즈니스·엔터프라이즈 총괄' },
-    bio: {
-      en: 'Driving sustainability and growth, Christine leads PUPA Center\u2019s business development and social enterprise initiatives with a strong focus on creating meaningful impact. She builds strategic partnerships and develops opportunities that bridge purpose with sustainability, expanding inclusive pathways for neurodivergent individuals.',
-      id: 'Berfokus pada keberlanjutan dan pertumbuhan, Christine memimpin inisiatif pengembangan bisnis dan wirausaha sosial PUPA Center dengan orientasi yang kuat pada penciptaan dampak yang bermakna. Ia membangun kemitraan strategis serta mengembangkan peluang yang menjembatani tujuan dengan keberlanjutan, memperluas jalur inklusif bagi individu neurodivergen.',
-      ko: '지속가능성과 성장을 이끄는 Christine은 의미 있는 임팩트에 초점을 두고 PUPA 센터의 사업 개발과 소셜 엔터프라이즈를 총괄합니다. 전략적 파트너십을 만들고 목적과 지속가능성을 잇는 기회를 키워, 신경다양인을 위한 포용적 진로를 넓혀 갑니다.',
-    },
-  },
-  {
     name: 'Margaretha Tanumijaya',
     photo: '/images/team/margaretha-tanumijaya.jpg',
     alt: { en: 'Margaretha Tanumijaya, General Affairs', id: 'Margaretha Tanumijaya, General Affairs', ko: '총무 Margaretha Tanumijaya' },
@@ -107,6 +96,11 @@ const content = {
 };
 const c = content[lang] ?? content.en;
 
+// Leaders grid is 3-up (6 tracks, cards span 2). Centre a short final row.
+const leadRem = leaders.length % 3;
+const leadOffsetIdx = leadRem === 0 ? -1 : leaders.length - leadRem;
+const leadOffsetCls = leadRem === 2 ? 'offset-1' : leadRem === 1 ? 'offset-2' : '';
+
 const team = [
   { name: 'Aini Rosadi', img: '/images/team/timothea-indirakristi.jpg' },
   { name: 'Saskya Aryanti Rahmatika', img: '/images/team/saskya-aryanti-rahmatika.jpg' },
@@ -115,7 +109,6 @@ const team = [
   { name: 'Dewinta Pitaloka', img: '/images/team/dewinta-pitaloka.jpg' },
   { name: 'Earl Dimara', img: '/images/team/earl-dimara.jpg' },
   { name: 'Erani Sagala', img: '/images/team/selvi-royna-ginting.jpg' },
-  { name: 'Hans Jonathan Ledi', img: '/images/team/hans-jonathan-ledi.jpg' },
   { name: 'Hansen Sebastian', img: '/images/team/hansen-sebastian.jpg' },
   { name: 'Ita Oktaviani Surya', img: '/images/team/ita-oktaviani-surya.jpg' },
   { name: 'Muhammad Eraya Satriana', img: '/images/team/muhammad-eraya.jpg' },
@@ -138,8 +131,8 @@ const team = [
     <div class="wrap">
       <h2>{c.leadersTitle}</h2>
       <div class="leader-grid">
-        {leaders.map((l) => (
-          <article class="leader-card">
+        {leaders.map((l, i) => (
+          <article class:list={['leader-card', i === leadOffsetIdx && leadOffsetCls]}>
             <img src={l.photo} alt={l.alt[lang] ?? l.alt.en} loading="lazy" width="360" height="440"
                  onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" />
             <div class="leader-info">
@@ -172,19 +165,21 @@ const team = [
 .page-head{background:var(--cream);padding:64px 0 48px;border-bottom:1px solid var(--line)}
 .page-head .lede{font-size:1.15rem;color:var(--ink-soft);margin-top:18px}
 .leaders{padding:64px 0}
-.leader-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:28px;align-items:stretch}
-.leader-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}
+.leader-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;margin-top:28px;align-items:stretch}
+.leader-card{grid-column:span 2;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column}
 .leader-card.no-photo::before{content:"";display:block;aspect-ratio:360/440;background:linear-gradient(150deg,var(--sage),var(--peach))}
 .leader-card img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .leader-info{padding:20px 22px 24px;display:flex;flex-direction:column;flex-grow:1}
 .leader-role{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--orange-500)}
 .leader-info h3{margin:4px 0 10px}
 .leader-bio{font-size:.97rem;color:var(--ink-soft)}
+.leader-card.offset-1{grid-column:2/span 2}
+.leader-card.offset-2{grid-column:3/span 2}
 .photo-note{margin-top:22px;font-size:.9rem;color:var(--ink-soft)}
 .team-sec{background:var(--surface);border-top:1px solid var(--line);padding:64px 0}
 .team-grid{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px;align-items:stretch}
 .member{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;text-align:center;display:flex;flex-direction:column}
 .member img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .member span{display:flex;align-items:center;justify-content:center;flex-grow:1;font-weight:600;font-size:.95rem;padding:12px 10px 14px}
-@media (max-width:960px){.leader-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:960px){.leader-grid{grid-template-columns:1fr}.leader-card,.leader-card.offset-1,.leader-card.offset-2{grid-column:auto}.team-grid{grid-template-columns:1fr 1fr}}
 </style>

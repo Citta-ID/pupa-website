@@ -1,6 +1,6 @@
 ---
 title: "자폐 청년이 성인기 전에 연습하면 좋은 생활 기술"
-date: 2026-03-15
+date: 2026-03-01
 translationKey: "life-skills"
 lang: ko
 slug: "life-skills-autistic-young-adults-ko"

@@ -1,6 +1,6 @@
 ---
 title: "How to Build Independence for Autistic Teens"
-date: 2026-04-15
+date: 2026-04-01
 translationKey: "building-independence"
 lang: en
 slug: "building-independence-autistic-teens"

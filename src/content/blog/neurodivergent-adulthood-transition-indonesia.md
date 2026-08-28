@@ -1,6 +1,6 @@
 ---
 title: "Supporting the Transition to Adulthood for Neurodivergent Young Adults in Indonesia"
-date: 2026-08-15
+date: 2026-08-01
 translationKey: "adulthood-transition"
 lang: en
 slug: "neurodivergent-adulthood-transition-indonesia"

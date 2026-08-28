@@ -1,6 +1,6 @@
 ---
 title: "Rasa Memiliki di Luar Pekerjaan: Persahabatan dan Komunitas bagi Dewasa Muda Neurodivergen"
-date: 2026-12-15
+date: 2026-12-01
 translationKey: "belonging-community"
 lang: id
 slug: "belonging-community-connection-id"

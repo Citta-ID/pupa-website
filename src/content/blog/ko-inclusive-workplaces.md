@@ -1,6 +1,6 @@
 ---
 title: "포용적인 일터 만들기: 신경다양성 직원을 돕는 편의 제공"
-date: 2026-10-15
+date: 2026-10-01
 translationKey: "inclusive-workplaces"
 lang: ko
 slug: "inclusive-workplaces-neurodivergent-employees-ko"

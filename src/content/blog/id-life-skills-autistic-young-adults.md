@@ -1,6 +1,6 @@
 ---
 title: "Kecakapan Hidup Yang Perlu Dilatih Setiap Dewasa Muda Autistik Sebelum Dewasa"
-date: 2026-03-15
+date: 2026-03-01
 translationKey: "life-skills"
 lang: id
 slug: "life-skills-autistic-young-adults-id"

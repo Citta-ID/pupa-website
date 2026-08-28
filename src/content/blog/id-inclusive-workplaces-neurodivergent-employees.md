@@ -1,6 +1,6 @@
 ---
 title: "Membangun Tempat Kerja yang Inklusif: Akomodasi yang Membantu Karyawan Neurodivergen"
-date: 2026-10-15
+date: 2026-10-01
 translationKey: "inclusive-workplaces"
 lang: id
 slug: "inclusive-workplaces-neurodivergent-employees-id"

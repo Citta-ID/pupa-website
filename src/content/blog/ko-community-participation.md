@@ -1,6 +1,6 @@
 ---
 title: "신경다양성 청년의 지역사회 참여 준비하기"
-date: 2026-05-15
+date: 2026-05-01
 translationKey: "community-participation"
 lang: ko
 slug: "community-participation-neurodivergent-young-adults-ko"

@@ -1,6 +1,6 @@
 ---
 title: "Preparing Neurodivergent Young Adults for Community Participation"
-date: 2026-05-15
+date: 2026-05-01
 translationKey: "community-participation"
 lang: en
 slug: "community-participation-neurodivergent-young-adults"

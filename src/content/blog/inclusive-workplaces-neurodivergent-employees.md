@@ -1,6 +1,6 @@
 ---
 title: "Building Inclusive Workplaces: Accommodations That Help Neurodivergent Employees"
-date: 2026-10-15
+date: 2026-10-01
 translationKey: "inclusive-workplaces"
 lang: en
 slug: "inclusive-workplaces-neurodivergent-employees"

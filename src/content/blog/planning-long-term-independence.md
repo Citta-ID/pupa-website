@@ -1,6 +1,6 @@
 ---
 title: "Planning for the Long Term: How Families Support Lifelong Independence"
-date: 2026-11-15
+date: 2026-11-01
 translationKey: "long-term-planning"
 lang: en
 slug: "planning-long-term-independence"

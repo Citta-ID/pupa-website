@@ -1,6 +1,6 @@
 ---
 title: "Why Structured Routines Matter for Autistic Young Adults"
-date: 2026-02-15
+date: 2026-02-01
 translationKey: "structured-routines"
 lang: en
 slug: "structured-routines-autistic-young-adults"

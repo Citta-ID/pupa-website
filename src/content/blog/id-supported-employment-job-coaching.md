@@ -1,6 +1,6 @@
 ---
 title: "Pendampingan Kerja: Bagaimana Job Coaching Membantu Dewasa Muda Neurodivergen Berkembang di Dunia Kerja"
-date: 2026-09-15
+date: 2026-09-01
 translationKey: "supported-employment"
 lang: id
 slug: "supported-employment-job-coaching-id"

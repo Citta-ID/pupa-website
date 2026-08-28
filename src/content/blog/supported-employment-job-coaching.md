@@ -1,6 +1,6 @@
 ---
 title: "Supported Employment: How Job Coaching Helps Neurodivergent Adults Thrive at Work"
-date: 2026-09-15
+date: 2026-09-01
 translationKey: "supported-employment"
 lang: en
 slug: "supported-employment-job-coaching"

@@ -1,6 +1,6 @@
 ---
 title: "자폐 청년에게 체계적인 루틴이 중요한 이유"
-date: 2026-02-15
+date: 2026-02-01
 translationKey: "structured-routines"
 lang: ko
 slug: "structured-routines-autistic-young-adults-ko"
