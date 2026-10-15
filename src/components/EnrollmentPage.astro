@@ -1,5 +1,6 @@
 ---
 import { waLink } from '../utils/whatsapp';
+import { ENQUIRY_FORM } from '../utils/enquiryForm';
 import Layout from '../layouts/Layout.astro';
 import { routes, type Lang } from '../i18n/ui';
 
@@ -27,6 +28,7 @@ const content = {
       ['Enrollment decision', 'Ready for enrollment: parents receive an offering letter. Further preparation required: parents receive a detailed evaluation report with recommendations and guidance.'],
     ],
     ctaStart: 'Start with the first step — message us on WhatsApp',
+    ctaForm: 'Or fill in our 1-minute online form',
     faqTitle: 'Frequently Asked Questions',
     faq: [
       ['What is PUPA Center?', 'PUPA Center is a development center focused on life skills and work readiness for neurodivergent individuals, particularly adolescents and young adults. The program is delivered through structured and practical programs.'],
@@ -66,6 +68,7 @@ const content = {
       ['Keputusan Pendaftaran', 'Siap bergabung: orang tua akan menerima surat penawaran. Diperlukan persiapan lebih lanjut: orang tua akan menerima laporan evaluasi terperinci beserta rekomendasi dan panduan.'],
     ],
     ctaStart: 'Mulai dari langkah pertama — hubungi kami via WhatsApp',
+    ctaForm: 'Atau isi formulir online (1 menit)',
     faqTitle: 'Pertanyaan Yang Sering Diajukan',
     faq: [
       ['Apa itu PUPA Center?', 'PUPA Center adalah pusat pengembangan keterampilan hidup dan kesiapan kerja bagi individu neurodivergen, khususnya remaja dan dewasa muda. Program pendampingan disampaikan secara terstruktur dan praktis, sehingga setiap peserta dapat belajar dan mempraktikkan setiap landasan teori sesuai tahap yang diperlukan.'],
@@ -105,6 +108,7 @@ const content = {
       ['등록 결정', '등록 준비 완료 시: 입학 안내문을 받습니다. 추가 준비가 필요한 경우: 권고와 안내가 담긴 상세 평가 보고서를 받습니다.'],
     ],
     ctaStart: '1단계부터 시작하기 — WhatsApp으로 문의',
+    ctaForm: '또는 1분 온라인 문의서 작성 (인도네시아어·영어)',
     faqTitle: '자주 묻는 질문',
     faq: [
       ['PUPA 센터는 어떤 곳인가요?', 'PUPA 센터는 신경다양인, 특히 청소년과 청년의 생활 기술과 취업 준비에 집중하는 성장 지원 센터입니다. 체계적이고 실용적인 프로그램으로 운영됩니다.'],
@@ -163,7 +167,10 @@ const faqSchema = {
               <div class="tl-body"><p>{s[1]}</p></div>
             </details>
           ))}
-          <a class="btn btn-primary steps-cta" href={wa} rel="noopener">{c.ctaStart}</a>
+          <div class="steps-ctas">
+            <a class="btn btn-primary" href={wa} rel="noopener">{c.ctaStart}</a>
+            <a class="btn btn-secondary" href={ENQUIRY_FORM} rel="noopener">{c.ctaForm}</a>
+          </div>
         </div>
         <div class="steps-photo">
           <img src="/images/enrollment.jpg" alt="A participant taking part in an activity at PUPA Center" loading="lazy" width="520" height="680" />
@@ -207,7 +214,8 @@ const faqSchema = {
 .tl-step summary .faq-icon{right:2px}
 .tl-body{padding:0 0 18px 60px}
 .tl-body p{color:var(--ink-soft)}
-.steps-cta{margin-top:26px;margin-left:0}
+/* Above the timeline's line, on the section's own background: the line ends where the steps do, whatever the buttons' height. */
+.steps-ctas{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:12px;padding-top:26px;background:var(--bg)}
 .steps-photo{position:sticky;top:100px}
 .steps-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius-lg);box-shadow:0 16px 40px rgba(11,68,65,.16)}
 .faq{background:linear-gradient(110deg,var(--sage),var(--peach));border-top:1px solid #EFE4D2;padding:72px 0}
