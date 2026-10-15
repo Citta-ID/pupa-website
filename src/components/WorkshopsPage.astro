@@ -1,11 +1,12 @@
 ---
+import { waLink } from '../utils/whatsapp';
 import Layout from '../layouts/Layout.astro';
 import { routes, type Lang } from '../i18n/ui';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const p = (key: string) => (routes[key] ?? routes.home)[lang];
-const wa = 'https://wa.me/62818533698';
+const wa = waLink(lang, 'workshops');
 
 const c = {
   en: {

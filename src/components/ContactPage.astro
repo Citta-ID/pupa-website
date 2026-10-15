@@ -1,15 +1,11 @@
 ---
+import { waLink } from '../utils/whatsapp';
 import Layout from '../layouts/Layout.astro';
 import { type Lang } from '../i18n/ui';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 
-const waText = {
-  en: encodeURIComponent('Hello PUPA Center team, I would like to know more about your programs. Thank you.'),
-  id: encodeURIComponent('Halo tim PUPA Center, saya ingin mengetahui lebih lanjut mengenai program yang tersedia. Terima kasih.'),
-  ko: encodeURIComponent('Hello PUPA Center team, I am reaching out from Korea and would like to know more about your programs. Thank you. (안녕하세요, 한국에서 연락드립니다.)'),
-};
 const content = {
   en: {
     metaTitle: 'Contact PUPA Center — Visit Us in Alam Sutera, Tangerang',
@@ -58,7 +54,7 @@ const content = {
   },
 };
 const c = content[lang] ?? content.en;
-const wa = `https://wa.me/62818533698?text=${waText[lang]}`;
+const wa = waLink(lang, 'contact');
 ---
 <Layout lang={lang} routeKey="contact" title={c.metaTitle} description={c.metaDescription}>
   <section class="page-head">

@@ -1,10 +1,11 @@
 ---
+import { waLink } from '../utils/whatsapp';
 import Layout from '../layouts/Layout.astro';
 import { type Lang } from '../i18n/ui';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
-const wa = 'https://wa.me/62818533698';
+const wa = waLink(lang, 'volunteer');
 
 const content = {
   en: {
