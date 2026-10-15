@@ -1,11 +1,12 @@
 ---
+import { waLink } from '../utils/whatsapp';
 import { useTranslations, routes, type Lang } from '../i18n/ui';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const p = (key: string) => (routes[key] ?? routes.home)[lang];
 const year = new Date().getFullYear();
-const wa = 'https://wa.me/62818533698';
+const wa = waLink(lang, 'website');
 ---
 <footer class="site-footer">
   <!-- Mission band (centered, top) -->
