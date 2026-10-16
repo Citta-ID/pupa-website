@@ -12,45 +12,55 @@ import type { Lang } from '../i18n/ui';
  */
 export const WA_NUMBER = '62818533698';
 
-export type WaPage = 'home' | 'enrollment' | 'contact' | 'workshops' | 'volunteer' | 'donate' | 'website';
+export type WaPage = 'home' | 'enrollment' | 'programs' | 'contact' | 'workshops' | 'volunteer' | 'donate' | 'article' | 'website';
 
-const KO = ' 안녕하세요.';
+const KO = '안녕하세요. ';
 
 const LINES: Record<WaPage, Record<Lang, string>> = {
   home: {
-    id: 'Halo PUPA, saya ingin tahu tentang program PUPA dan menjadwalkan kunjungan. (dari halaman Beranda)',
-    en: 'Hello PUPA, I would like to know about your programs and book a visit. (from the Home page)',
-    ko: `Hello PUPA, I would like to know about your programs and book a visit. (from the Korean Home page)${KO}`,
+    id: 'Halo PUPA, saya ingin tahu tentang program PUPA. (dari halaman Beranda)',
+    en: 'Hello PUPA, I would like to know about your programs. (from the Home page)',
+    ko: `${KO}Hello PUPA, I would like to know about your programs. (from the Korean Home page)`,
   },
   enrollment: {
     id: 'Halo PUPA, saya ingin bertanya tentang pendaftaran. (dari halaman Pendaftaran)',
     en: 'Hello PUPA, I would like to ask about enrollment. (from the Enrollment page)',
-    ko: `Hello PUPA, I would like to ask about enrollment. (from the Korean Enrollment page)${KO}`,
+    ko: `${KO}Hello PUPA, I would like to ask about enrollment. (from the Korean Enrollment page)`,
+  },
+  programs: {
+    id: 'Halo PUPA, saya ingin bertanya tentang pendaftaran. (dari halaman Program)',
+    en: 'Hello PUPA, I would like to ask about enrollment. (from the Programs page)',
+    ko: `${KO}Hello PUPA, I would like to ask about enrollment. (from the Korean Programs page)`,
   },
   contact: {
-    id: 'Halo tim PUPA Center, saya ingin mengetahui lebih lanjut mengenai program yang tersedia. Terima kasih. (dari halaman Kontak)',
+    id: 'Halo PUPA, saya ingin tahu tentang program PUPA. (dari halaman Kontak)',
     en: 'Hello PUPA Center team, I would like to know more about your programs. Thank you. (from the Contact page)',
-    ko: `Hello PUPA Center team, I am reaching out from Korea and would like to know more about your programs. Thank you. (from the Korean Contact page)${KO}`,
+    ko: `${KO}Hello PUPA Center team, I would like to know more about your programs. Thank you. (from the Korean Contact page)`,
   },
   workshops: {
     id: 'Halo PUPA, saya ingin tahu lebih lanjut tentang workshop PUPA. (dari halaman Workshop)',
     en: "Hello PUPA, I would like to know more about PUPA's workshops. (from the Workshops page)",
-    ko: `Hello PUPA, I would like to know more about PUPA's workshops. (from the Korean Workshops page)${KO}`,
+    ko: `${KO}Hello PUPA, I would like to know more about PUPA's workshops. (from the Korean Workshops page)`,
   },
   volunteer: {
     id: 'Halo PUPA, saya ingin menjadi relawan. (dari halaman Ambil Bagian)',
     en: 'Hello PUPA, I would like to volunteer. (from the Get Involved page)',
-    ko: `Hello PUPA, I would like to volunteer. (from the Korean Get Involved page)${KO}`,
+    ko: `${KO}Hello PUPA, I would like to volunteer. (from the Korean Get Involved page)`,
   },
   donate: {
     id: 'Halo PUPA, saya ingin mengonfirmasi donasi. (dari halaman Donasi)',
     en: 'Hello PUPA, I would like to confirm a donation. (from the Donate page)',
-    ko: `Hello PUPA, I would like to confirm a donation. (from the Korean Donate page)${KO}`,
+    ko: `${KO}Hello PUPA, I would like to confirm a donation. (from the Korean Donate page)`,
+  },
+  article: {
+    id: 'Halo PUPA, saya ingin tahu apakah PUPA cocok untuk kami. (dari halaman Artikel)',
+    en: 'Hello PUPA, I would like to know if PUPA is the right fit for us. (from an article)',
+    ko: `${KO}Hello PUPA, I would like to know if PUPA is the right fit for us. (from a Korean article)`,
   },
   website: {
     id: 'Halo PUPA, saya ingin tahu lebih lanjut tentang PUPA. (dari website)',
     en: 'Hello PUPA, I would like to know more about PUPA. (from the website)',
-    ko: `Hello PUPA, I would like to know more about PUPA. (from the Korean website)${KO}`,
+    ko: `${KO}Hello PUPA, I would like to know more about PUPA. (from the Korean website)`,
   },
 };
 

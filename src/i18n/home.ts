@@ -10,12 +10,12 @@ export const home: Record<Lang, any> = {
     heroTitle: 'A Future Where Neurodivergent Young Adults Live a Life That Matters.',
     heroLede:
       'PUPA Center is a learning center where autistic and other neurodivergent young adults build daily living skills, work skills, and real connections to jobs and community.',
-    ctaVisit: 'Book a visit on WhatsApp',
+    ctaVisit: 'Get to know PUPA',
     ctaPrograms: 'Explore our programs',
     doorwaysTitle: 'How Can We Help You Today?',
     doorwaysLede: 'Choose the path that fits you. Each one takes you straight to the information you need.',
     doorways: [
-      { title: 'For Families', body: 'Learn how our programs work, what a typical day looks like, and how to enroll your young adult. Start with a free visit to our center.', link: 'See how enrollment works', routeKey: 'enrollment' },
+      { title: 'For Families', body: 'Learn how our programs work, what a typical day looks like, and how to enroll your young adult. It starts with a conversation, then a visit to our center.', link: 'See how enrollment works', routeKey: 'enrollment' },
       { title: 'For Donors & Partners', body: 'Your support funds scholarships, training materials, and job placements. See where donations go and how companies can partner with us.', link: 'See ways to give', routeKey: 'donate' },
       { title: 'For Volunteers', body: 'Share your skills as a class mentor, workshop leader, or event helper. We will match your time and experience to a role that fits.', link: 'See volunteer roles', routeKey: 'getInvolved' },
     ],
@@ -54,13 +54,13 @@ export const home: Record<Lang, any> = {
     eyebrow: 'Alam Sutera, Tangerang · Indonesia',
     heroTitle: 'Mewujudkan Masa Depan agar Individu Neurodivergen Menjalani Hidup yang Bermakna.',
     heroLede:
-      'PUPA Center adalah pusat pembelajaran tempat anak muda dengan autisme dan neurodivergen lainnya membangun kecakapan hidup sehari-hari, keterampilan kerja, serta koneksi nyata menuju dunia kerja dan komunitas.',
-    ctaVisit: 'Jadwalkan kunjungan via WhatsApp',
+      'PUPA Center adalah pusat pembelajaran tempat anak muda autistik dan neurodivergen lainnya membangun kecakapan hidup sehari-hari, keterampilan kerja, serta koneksi nyata menuju dunia kerja dan komunitas.',
+    ctaVisit: 'Kenalan dengan PUPA',
     ctaPrograms: 'Lihat program kami',
     doorwaysTitle: 'Apa Yang Bisa Kami Bantu Hari Ini?',
     doorwaysLede: 'Pilih jalur yang sesuai untuk Anda. Setiap jalur langsung menuju informasi yang Anda butuhkan.',
     doorways: [
-      { title: 'Untuk Keluarga', body: 'Pelajari cara kerja program kami, seperti apa kegiatan sehari-hari, dan cara mendaftarkan anak Anda. Mulai dengan kunjungan gratis ke pusat kami.', link: 'Lihat cara pendaftaran', routeKey: 'enrollment' },
+      { title: 'Untuk Keluarga', body: 'Pelajari cara kerja program kami, seperti apa kegiatan sehari-hari, dan cara mendaftarkan anak Anda. Semuanya dimulai dari percakapan, lalu kunjungan ke pusat kami.', link: 'Lihat cara pendaftaran', routeKey: 'enrollment' },
       { title: 'Untuk Donatur & Mitra', body: 'Dukungan Anda mendanai beasiswa, materi pelatihan, dan penempatan kerja. Lihat ke mana donasi digunakan dan bagaimana perusahaan dapat bermitra dengan kami.', link: 'Lihat cara berdonasi', routeKey: 'donate' },
       { title: 'Untuk Relawan', body: 'Bagikan keahlian Anda sebagai mentor kelas, pemandu lokakarya, atau pendamping acara. Kami akan mencocokkan waktu dan pengalaman Anda dengan peran yang sesuai.', link: 'Lihat peran relawan', routeKey: 'getInvolved' },
     ],
@@ -100,12 +100,12 @@ export const home: Record<Lang, any> = {
     heroTitle: '신경다양성 청년이 의미 있는 삶을 살아가는 미래를 만듭니다.',
     heroLede:
       'PUPA 센터는 자폐를 포함한 신경다양성 청년들이 일상생활 기술과 직업 기술을 익히고, 일자리와 지역사회로 실제로 연결되도록 돕는 배움의 공간입니다.',
-    ctaVisit: 'WhatsApp으로 방문 예약하기',
+    ctaVisit: 'PUPA 알아보기',
     ctaPrograms: '프로그램 살펴보기',
     doorwaysTitle: '오늘 어떤 도움이 필요하신가요?',
     doorwaysLede: '알맞은 길을 선택하세요. 각 항목은 필요한 정보로 바로 안내합니다.',
     doorways: [
-      { title: '가족을 위해', body: '프로그램 운영 방식과 하루 일과, 등록 절차를 알아보세요. 센터 무료 방문으로 시작하실 수 있습니다.', link: '등록 절차 보기', routeKey: 'enrollment' },
+      { title: '가족을 위해', body: '프로그램 운영 방식과 하루 일과, 등록 절차를 알아보세요. 먼저 대화로 시작하고, 이어서 센터를 방문하실 수 있습니다.', link: '등록 절차 보기', routeKey: 'enrollment' },
       { title: '후원자·파트너를 위해', body: '여러분의 후원은 장학금, 교육 자료, 일자리 연계에 쓰입니다. 후원금의 사용처와 기업 파트너십 방법을 확인하세요.', link: '후원 방법 보기', routeKey: 'donate' },
       { title: '자원봉사자를 위해', body: '수업 멘토, 워크숍 리더, 행사 도우미로 재능을 나눠 주세요. 시간과 경험에 맞는 역할을 찾아 드립니다.', link: '봉사 역할 보기', routeKey: 'getInvolved' },
     ],

@@ -1,11 +1,12 @@
 ---
+import { waLink } from '../utils/whatsapp';
 import Layout from '../layouts/Layout.astro';
 import { routes, type Lang } from '../i18n/ui';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 const p = (key: string) => (routes[key] ?? routes.home)[lang];
-const wa = 'https://wa.me/62818533698';
+const wa = waLink(lang, 'programs');
 
 const content = {
   en: {
@@ -17,7 +18,7 @@ const content = {
       tag: 'Stage 1 · Life skills · Ages 16–25',
       title: 'Mandiri',
       lede: 'A comprehensive life skills and work readiness program designed to help teens and young adults maximize their potential and thrive in an inclusive society.',
-      overview: 'PUPA Mandiri provides development programs for neurodivergent adolescents and adults (ages 16–25). Our primary goal is to prepare participants for independence in their daily lives, helping them optimize their personal potential and function effectively within the community. The curriculum is designed around key areas of development — from life skills through transition to work — to ensure a holistic approach to independence.',
+      overview: 'PUPA Mandiri provides development programs for neurodivergent adolescents and adults (ages 16–25 at enrollment). Our primary goal is to prepare participants for independence in their daily lives, helping them optimize their personal potential and function effectively within the community. The curriculum is designed around key areas of development — from life skills through transition to work — to ensure a holistic approach to independence.',
       areasTitle: 'Curriculum Areas',
       areas: [
         ['Basic Living Skills', 'Fundamental daily routines including self-control, communication, dressing, and personal hygiene.'],
@@ -28,11 +29,11 @@ const content = {
         ['Vocational Skills', 'Exploring and developing participant potential through various skills aligned with their abilities.'],
       ],
       stagesTitle: 'Our Path to Independence',
-      stagesIntro: 'The Mandiri program is divided into three classes, allowing participants to progress at a pace suitable for their condition. Each class lasts approximately one year.',
+      stagesIntro: 'The Mandiri program is divided into three classes, allowing participants to progress at their own pace. Each class lasts approximately one year.',
       stages: [
-        ['Life Class', 'An assisted living stage with high support (2:1 participant–mentor ratio). Participants build the foundation of independence, focusing on basic living and home skills through activities like art, physical education, and essential literacy in money, time, and communication.'],
-        ['Transition Class', 'Focused on independent living, this stage expands learning into the wider community with a 5:1 ratio. The curriculum emphasizes community participation and school skills — personal growth, problem-solving, self-care, and navigating public spaces confidently.'],
-        ['Independent Class', 'The transition-to-work stage prepares young adults for professional environments with a 6:1 ratio. Participants develop vocational and advanced independent living skills: work simulations, complex money management, transportation, and the social dynamics of living and working with others.'],
+        ['Life Class', 'An assisted living stage with high support (one mentor for every two participants). Participants build the foundation of independence, focusing on basic living and home skills through activities like art, physical education, and essential literacy in money, time, and communication.'],
+        ['Transition Class', 'Focused on independent living, this stage expands learning into the wider community, with one mentor for every five participants. The curriculum emphasizes community participation and school skills — personal growth, problem-solving, self-care, and navigating public spaces confidently.'],
+        ['Independent Class', 'The transition-to-work stage prepares young adults for professional environments, with one mentor for every six participants. Participants develop vocational and advanced independent living skills: work simulations, complex money management, transportation, and the social dynamics of living and working with others.'],
       ],
     },
     karya: {
@@ -75,12 +76,13 @@ const content = {
     ctaTitle: 'Interested in Enrolling?',
     ctaBody: 'Our enrollment process is designed to ensure the right fit for every participant. It starts with a conversation.',
     ctaEnroll: 'See how enrollment works',
+    ctaWa: 'Message us on WhatsApp',
   },
   id: {
     metaTitle: 'Program Kami — Mandiri, Karya & Access | PUPA Center',
     metaDescription: 'PUPA Center menawarkan rangkaian program untuk anak muda neurodivergen usia 16–25 di Tangerang: Mandiri (kecakapan hidup), Karya (kesiapan kerja), Access (co-working inklusif), serta kelas ekstrakurikuler.',
     h1: 'Program Kami',
-    intro: 'Program kami merupakan sebuah urutan. Peserta membangun kemandirian terlebih dahulu (Mandiri), lalu kesiapan kerja (Karya), kemudian berlatih bekerja di lingkungan nyata yang suportif (Access). Setiap peserta bergerak sesuai kecepatannya sendiri, dan kelas ekstrakurikuler berjalan berdampingan dengan perjalanan utama.',
+    intro: 'Program kami berurutan. Peserta membangun kemandirian terlebih dahulu (Mandiri), lalu kesiapan kerja (Karya), kemudian berlatih bekerja di lingkungan nyata yang suportif (Access). Setiap peserta bergerak sesuai kecepatannya sendiri, dan kelas ekstrakurikuler berjalan berdampingan dengan perjalanan utama.',
     mandiri: {
       tag: 'Tahap 1 · Kecakapan hidup · Usia 16–25',
       title: 'Mandiri',
@@ -98,9 +100,9 @@ const content = {
       stagesTitle: 'Jalur Menuju Kemandirian',
       stagesIntro: 'Program PUPA Mandiri terdiri dari tiga tahapan, memungkinkan individu neurodivergen mendaftar masuk sesuai kelompok yang tepat (selaras dengan hasil asesmen). Setiap tahap berlangsung selama satu tahun.',
       stages: [
-        ['Life Class', 'Tahap kemandirian dasar bagi individu neurodivergen dengan kebutuhan dukungan tinggi (rasio 1:2). Terfokus pada kecakapan dasar dan kecakapan rumah, melalui aktivitas seperti seni, gerak tubuh, serta literasi dasar (uang, waktu, dan komunikasi) guna membangun rutinitas sehari-hari.'],
-        ['Transition Class', 'Tahap yang berfokus pada pengembangan keterampilan dalam interaksi sosial (rasio pendampingan 1:5). Kurikulum menekankan partisipasi komunitas dan kecakapan kognitif, membimbing kemampuan pemecahan masalah, perawatan diri, serta beraktivitas di ruang publik dengan percaya diri.'],
-        ['Independent Class', 'Tahapan dengan gol akhir Transisi ke Dunia Kerja, mempersiapkan individu neurodivergen dalam ruang lingkup profesional (rasio pendampingan 1:6). Mengembangkan kecakapan vokasional dan kemandirian lanjutan melalui simulasi kerja, literasi keuangan, transportasi, serta dinamika sosial dalam hidup dan bekerja bersama orang lain.'],
+        ['Life Class', 'Tahap kemandirian dasar bagi individu neurodivergen dengan kebutuhan dukungan tinggi (1 pendamping untuk 2 peserta). Terfokus pada kecakapan dasar dan kecakapan rumah, melalui aktivitas seperti seni, gerak tubuh, serta literasi dasar (uang, waktu, dan komunikasi) guna membangun rutinitas sehari-hari.'],
+        ['Transition Class', 'Tahap yang berfokus pada pengembangan keterampilan dalam interaksi sosial (1 pendamping untuk 5 peserta). Kurikulum menekankan partisipasi komunitas dan kecakapan kognitif, membimbing kemampuan pemecahan masalah, perawatan diri, serta beraktivitas di ruang publik dengan percaya diri.'],
+        ['Independent Class', 'Tahapan dengan gol akhir Transisi ke Dunia Kerja, mempersiapkan individu neurodivergen dalam ruang lingkup profesional (1 pendamping untuk 6 peserta). Mengembangkan kecakapan vokasional dan kemandirian lanjutan melalui simulasi kerja, literasi keuangan, transportasi, serta dinamika sosial dalam hidup dan bekerja bersama orang lain.'],
       ],
     },
     karya: {
@@ -111,7 +113,7 @@ const content = {
       blocks: [
         ['Perjalanan Dua Tahap', 'Program terbagi ke dalam dua fase terstruktur. Enam bulan pertama fokus pada pelatihan vokasional dan penguatan keterampilan kerja melalui pendampingan individu dan kelompok. Enam bulan berikutnya berfokus pada praktik kerja nyata dengan mitra, unit usaha di PUPA Center, serta dukungan orang tua dalam lingkungan dan peran yang beragam.'],
         ['Transisi PUPA Mandiri', 'PUPA Karya adalah jalur kelanjutan dari PUPA Mandiri. Individu neurodivergen yang telah menyelesaikan program kecakapan hidup di PUPA Mandiri dapat melanjutkan ke PUPA Karya sebagai program terusan dengan tujuan utama: kesiapan kerja.'],
-        ['Ketentuan Pendaftaran', 'Divisi ini juga terbuka bagi individu neurodivergen usia produktif yang belum mengikuti PUPA Mandiri, namun telah menunjukkan tingkat kemandirian sesuai tujuan Program PUPA Karya. Kami terbuka bagi individu neurodivergen yang siap mengeksplorasi potensi dan melangkah menuju pekerjaan yang bermakna.'],
+        ['Ketentuan Pendaftaran', 'Karya juga terbuka bagi individu neurodivergen usia produktif yang belum mengikuti PUPA Mandiri, namun telah menunjukkan tingkat kemandirian sesuai tujuan Program PUPA Karya. Kami terbuka bagi individu neurodivergen yang siap mengeksplorasi potensi dan melangkah menuju pekerjaan yang bermakna.'],
       ],
     },
     access: {
@@ -143,6 +145,7 @@ const content = {
     ctaTitle: 'Tertarik untuk Mendaftar?',
     ctaBody: 'Proses pendaftaran kami dirancang untuk memastikan kecocokan yang tepat bagi setiap peserta. Semuanya dimulai dari percakapan.',
     ctaEnroll: 'Lihat cara pendaftaran',
+    ctaWa: 'Kirim WhatsApp',
   },
   ko: {
     metaTitle: '프로그램 안내 — Mandiri, Karya, Access | PUPA Center',
@@ -153,7 +156,7 @@ const content = {
       tag: '1단계 · 생활 기술 · 16–25세',
       title: 'Mandiri',
       lede: '청소년과 청년이 잠재력을 최대한 발휘하고 포용적인 사회에서 살아가도록 돕는 종합 생활 기술·취업 준비 프로그램입니다.',
-      overview: 'PUPA Mandiri는 신경다양성 청소년과 성인(16–25세)을 위한 성장 프로그램입니다. 핵심 목표는 참여자가 일상에서 자립할 수 있도록 준비시키고, 개인의 잠재력을 최대한 발휘하며 지역사회 안에서 잘 살아가도록 돕는 것입니다. 커리큘럼은 생활 기술부터 일로의 전환까지 핵심 발달 영역을 중심으로 설계되어, 자립을 향한 전인적 접근을 보장합니다.',
+      overview: 'PUPA Mandiri는 신경다양성 청소년과 성인(등록 시 16–25세)을 위한 성장 프로그램입니다. 핵심 목표는 참여자가 일상에서 자립할 수 있도록 준비시키고, 개인의 잠재력을 최대한 발휘하며 지역사회 안에서 잘 살아가도록 돕는 것입니다. 커리큘럼은 생활 기술부터 일로의 전환까지 핵심 발달 영역을 중심으로 설계되어, 자립을 향한 전인적 접근을 보장합니다.',
       areasTitle: '커리큘럼 영역',
       areas: [
         ['기초 생활 기술', '자기 조절, 의사소통, 옷 입기, 개인 위생 등 기본적인 일상 루틴.'],
@@ -164,11 +167,11 @@ const content = {
         ['직업 기술', '각자의 능력에 맞는 다양한 기술을 통해 참여자의 잠재력을 탐색하고 키우기.'],
       ],
       stagesTitle: '자립으로 가는 길',
-      stagesIntro: 'Mandiri 프로그램은 세 개의 반으로 나뉘어, 참여자가 자신의 상태에 맞는 속도로 나아갈 수 있습니다. 각 반은 약 1년 과정입니다.',
+      stagesIntro: 'Mandiri 프로그램은 세 개의 반으로 나뉘어, 참여자가 자신의 속도로 나아갈 수 있습니다. 각 반은 약 1년 과정입니다.',
       stages: [
-        ['Life Class', '높은 수준의 지원이 함께하는 생활 보조 단계입니다(참여자 대 멘토 2:1). 미술, 체육, 그리고 돈·시간·의사소통의 기초 문해를 통해 기본 생활·가정 기술을 중심으로 자립의 토대를 다집니다.'],
-        ['Transition Class', '자립 생활에 초점을 맞추어 배움을 더 넓은 지역사회로 확장하는 단계입니다(5:1 비율). 커리큘럼은 지역사회 참여와 학교 기술 — 개인적 성장, 문제 해결, 자기 관리, 공공장소를 자신 있게 다니기 — 를 강조합니다.'],
-        ['Independent Class', '일로의 전환 단계로, 청년들이 전문적인 환경을 준비하도록 돕습니다(6:1 비율). 직업 시뮬레이션, 복잡한 돈 관리, 교통수단 이용, 그리고 함께 살고 일하는 사회적 관계 등 직업 기술과 심화 자립 생활 기술을 키웁니다.'],
+        ['Life Class', '높은 수준의 지원이 함께하는 생활 보조 단계입니다(멘토 1명당 참여자 2명). 미술, 체육, 그리고 돈·시간·의사소통의 기초 문해를 통해 기본 생활·가정 기술을 중심으로 자립의 토대를 다집니다.'],
+        ['Transition Class', '자립 생활에 초점을 맞추어 배움을 더 넓은 지역사회로 확장하는 단계입니다(멘토 1명당 참여자 5명). 커리큘럼은 지역사회 참여와 학교 기술 — 개인적 성장, 문제 해결, 자기 관리, 공공장소를 자신 있게 다니기 — 를 강조합니다.'],
+        ['Independent Class', '일로의 전환 단계로, 청년들이 전문적인 환경을 준비하도록 돕습니다(멘토 1명당 참여자 6명). 직업 시뮬레이션, 복잡한 돈 관리, 교통수단 이용, 그리고 함께 살고 일하는 사회적 관계 등 직업 기술과 심화 자립 생활 기술을 키웁니다.'],
       ],
     },
     karya: {
@@ -211,6 +214,7 @@ const content = {
     ctaTitle: '등록에 관심이 있으신가요?',
     ctaBody: '우리의 등록 절차는 모든 참여자에게 맞는 자리를 찾기 위해 설계되었습니다. 대화 한 번으로 시작됩니다.',
     ctaEnroll: '등록 절차 보기',
+    ctaWa: 'WhatsApp으로 문의하기',
   },
 };
 const c = content[lang] ?? content.en;
@@ -323,7 +327,10 @@ const extraImgs: Record<string, string> = {
     <div class="wrap">
       <h2>{c.ctaTitle}</h2>
       <p>{c.ctaBody}</p>
-      <a class="btn btn-primary" href={p('enrollment')}>{c.ctaEnroll}</a>
+      <div class="cta-row">
+        <a class="btn btn-primary" href={p('enrollment')}>{c.ctaEnroll}</a>
+        <a class="btn btn-secondary" href={wa} rel="noopener">{c.ctaWa}</a>
+      </div>
     </div>
   </section>
 </Layout>
