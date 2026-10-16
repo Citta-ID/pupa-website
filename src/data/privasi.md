@@ -50,7 +50,7 @@ Sebagian informasi yang mungkin Anda bagikan — terkait kesehatan, disabilitas,
 * Kami **tidak** menyimpan diagnosis, kondisi medis, detail pengobatan, catatan terapi, atau detail insiden perilaku dalam catatan kontak otomatis kami.
 * Bila diperlukan untuk kesinambungan layanan, kami hanya menyimpan **ringkasan umum yang bersifat non-klinis** (misalnya, "orang tua menanyakan program kecakapan hidup"), bukan rincian klinis atau medis.
 * Informasi sensitif diproses hanya sebatas yang diperlukan untuk memberikan dukungan dan mengarahkan Anda kepada anggota tim kami yang tepat.
-* **Dokumen pendaftaran.** Saat keluarga mendaftar, kami meminta hasil tes psikologi dan IQ calon peserta serta catatan kesehatan singkat (alergi, kejang, obat selama jam PUPA, klinik yang dihubungi), supaya ia aman sejak hari pertama. Dokumen ini disimpan tertutup di penyimpanan yang aman, hanya dibuka oleh tim klinis PUPA dan pendamping kelasnya, dan tidak disalin ke catatan kontak kami.
+* **Dokumen pendaftaran.** Saat keluarga mendaftar, kami meminta hasil tes psikologi dan IQ calon peserta serta catatan kesehatan singkat (alergi, kejang, obat selama jam PUPA, klinik yang dihubungi), supaya ia aman sejak hari pertama. Dokumen ini disimpan tertutup di penyimpanan yang aman, hanya dibuka oleh staf PUPA dengan izin khusus yang menangani pendaftaran atau mendampinginya, dan tidak disalin ke catatan kontak kami.
 
 ### 5. Cara Kami Menggunakan Data Anda
 

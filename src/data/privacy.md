@@ -50,7 +50,7 @@ Some information you may share — relating to health, disability, or a person's
 * We **do not** retain diagnoses, medical conditions, medication details, therapy notes, or behavioral-incident details in our automated contact records.
 * Where continuity is helpful, we keep only **generalized, non-clinical summaries** (for example, "parent enquiring about life-skills programs"), not clinical or medical specifics.
 * Sensitive information is processed only as necessary to provide support and route you to the right member of our team.
-* **Enrolment documents.** When a family registers, we ask for the young person's psychologist and IQ report and a short health sheet (allergies, seizures, medicines during PUPA hours, the clinic to call), so they are safe from their first day. These are kept as sealed documents in secured storage, opened only by PUPA's clinical team and the young person's class staff, and are not copied into our contact records.
+* **Enrolment documents.** When a family registers, we ask for the young person's psychologist and IQ report and a short health sheet (allergies, seizures, medicines during PUPA hours, the clinic to call), so they are safe from their first day. These are kept as sealed documents in secured storage, opened only by staff with special permission who handle the application or support the young person, and are not copied into our contact records.
 
 ### 5. How We Use Your Data
 
