@@ -17,7 +17,7 @@ This policy covers personal data we process when you:
 
 * Visit our website at pupacenter.org;
 * Contact PUPA through our WhatsApp lines or Telegram;
-* Fill in one of our online forms: the enquiry form on family.pupacenter.org, or a form we send your family during enrolment;
+* Fill in one of our online forms: the Kenalan form on family.pupacenter.org, or a form we send your family during enrolment;
 * Are a parent, guardian, or family member of a person enrolled with or enquiring about PUPA;
 * Are a prospective participant, partner, donor, volunteer, or member of the public who contacts us.
 
@@ -32,7 +32,7 @@ Our website is an informational site. We keep what happens in your browser to a 
 * **Fonts.** Our pages load fonts from Google Fonts, which means your browser sends a standard request (including your IP address) to Google's servers. This is governed by Google's privacy policy.
 * **Settings stored on your device.** If you choose a language with the language toggle, or adjust our accessibility settings (such as text size or contrast), those preferences are saved in your own browser's local storage so the site remembers them. They are never transmitted to us, and you can clear them at any time through your browser settings.
 * **External links.** Links to WhatsApp, Instagram, YouTube, and Google Maps take you to services governed by their own privacy policies.
-* **The online enquiry form.** Our Enrollment and Contact pages link to an enquiry form on family.pupacenter.org. What you write there is sent to PUPA and handled as Sections 4 to 8 describe. To keep out automated spam, we keep a scrambled code made from the sending device's internet address for 7 days; the address itself is not stored.
+* **The Kenalan form.** Our website links to the Kenalan form on family.pupacenter.org. What you write there is sent to PUPA and handled as Sections 4 to 8 describe. To keep out automated spam, we keep a scrambled code made from the sending device's internet address for 7 days. The address itself is not stored.
 
 ### 4. The Personal Data We Collect
 
@@ -50,7 +50,7 @@ Some information you may share — relating to health, disability, or a person's
 * We **do not** retain diagnoses, medical conditions, medication details, therapy notes, or behavioral-incident details in our automated contact records.
 * Where continuity is helpful, we keep only **generalized, non-clinical summaries** (for example, "parent enquiring about life-skills programs"), not clinical or medical specifics.
 * Sensitive information is processed only as necessary to provide support and route you to the right member of our team.
-* **Enrolment documents.** When a family registers, we ask for the young person's psychologist and IQ report and a short health sheet (allergies, seizures, medicines during PUPA hours, the clinic to call), so they are safe from their first day. These are kept as sealed documents in secured storage, opened only by staff with special permission who handle the application or support the young person, and are not copied into our contact records.
+* **Enrolment documents.** When a family registers, we ask for the young person's psychologist and IQ report and a short health sheet (allergies, seizures, medicines during PUPA hours, the clinic to call), so they are safe from their first day. These are kept as sealed documents in secured storage. Only PUPA's clinical team opens the report. Only the clinical team and the young person's class staff open the health sheet. Neither is copied into our contact records.
 
 ### 5. How We Use Your Data
 
@@ -88,7 +88,7 @@ We keep personal data only as long as necessary for the purposes above:
 * **Contact summaries** are kept while a relationship is active and are removed or anonymized when no longer needed. We use soft-deletion to preserve necessary audit integrity before permanent removal.
 * **Donation records** are kept for the period required by accounting and tax regulations.
 * We do not retain sensitive clinical detail in automated records (see Section 4).
-* **Enquiries** that end without the young person joining keep no names or contact details after 12 months. **Documents** sent for them (reports and the health sheet) are deleted 3 months after the enquiry closes. If you would like them kept for a later intake, tell us.
+* If the young person does not join, the documents sent for them (reports and the health sheet) are deleted 3 months after the enquiry closes. Names, contact details and form answers are deleted 12 months after it closes. If you would like the documents kept for a later intake, tell us.
 
 ### 9. How We Protect Your Data
 

@@ -17,7 +17,7 @@ Kebijakan ini mencakup data pribadi yang kami proses ketika Anda:
 
 * Mengunjungi situs web kami di pupacenter.org;
 * Menghubungi PUPA melalui saluran WhatsApp atau Telegram kami;
-* Mengisi salah satu formulir online kami: formulir kenalan di family.pupacenter.org, atau formulir yang kami kirim kepada keluarga selama pendaftaran;
+* Mengisi salah satu formulir online kami: formulir Kenalan di family.pupacenter.org, atau formulir yang kami kirim kepada keluarga selama pendaftaran;
 * Merupakan orang tua, wali, atau anggota keluarga dari seseorang yang terdaftar di PUPA atau sedang mencari informasi tentang PUPA;
 * Merupakan calon peserta, mitra, donatur, relawan, atau anggota masyarakat yang menghubungi kami.
 
@@ -32,7 +32,7 @@ Situs web kami bersifat informasional. Kami menjaga agar aktivitas di peramban (
 * **Font.** Halaman kami memuat font dari Google Fonts, sehingga peramban Anda mengirimkan permintaan standar (termasuk alamat IP Anda) ke server Google. Hal ini tunduk pada kebijakan privasi Google.
 * **Pengaturan yang tersimpan di perangkat Anda.** Jika Anda memilih bahasa melalui tombol bahasa, atau mengubah pengaturan aksesibilitas kami (seperti ukuran teks atau kontras), preferensi tersebut disimpan di penyimpanan lokal peramban Anda sendiri agar situs dapat mengingatnya. Preferensi ini tidak pernah dikirimkan kepada kami, dan Anda dapat menghapusnya kapan saja melalui pengaturan peramban.
 * **Tautan eksternal.** Tautan ke WhatsApp, Instagram, YouTube, dan Google Maps akan membawa Anda ke layanan yang tunduk pada kebijakan privasi masing-masing.
-* **Formulir kenalan online.** Halaman Pendaftaran dan Kontak kami menautkan formulir kenalan di family.pupacenter.org. Isian Anda dikirim ke PUPA dan ditangani sesuai Bagian 4 sampai 8. Untuk mencegah kiriman spam otomatis, kami menyimpan kode acak yang dibuat dari alamat internet perangkat pengirim selama 7 hari; alamatnya sendiri tidak disimpan.
+* **Formulir Kenalan.** Situs kami punya link ke formulir Kenalan di family.pupacenter.org. Isian Anda dikirim ke PUPA dan kami tangani sesuai Bagian 4 sampai 8. Untuk mencegah spam otomatis, kami menyimpan kode acak dari alamat internet perangkat pengirim selama 7 hari. Alamat internetnya sendiri tidak kami simpan.
 
 ### 4. Data Pribadi yang Kami Kumpulkan
 
@@ -50,7 +50,7 @@ Sebagian informasi yang mungkin Anda bagikan — terkait kesehatan, disabilitas,
 * Kami **tidak** menyimpan diagnosis, kondisi medis, detail pengobatan, catatan terapi, atau detail insiden perilaku dalam catatan kontak otomatis kami.
 * Bila diperlukan untuk kesinambungan layanan, kami hanya menyimpan **ringkasan umum yang bersifat non-klinis** (misalnya, "orang tua menanyakan program kecakapan hidup"), bukan rincian klinis atau medis.
 * Informasi sensitif diproses hanya sebatas yang diperlukan untuk memberikan dukungan dan mengarahkan Anda kepada anggota tim kami yang tepat.
-* **Dokumen pendaftaran.** Saat keluarga mendaftar, kami meminta hasil tes psikologi dan IQ calon peserta serta catatan kesehatan singkat (alergi, kejang, obat selama jam PUPA, klinik yang dihubungi), supaya ia aman sejak hari pertama. Dokumen ini disimpan tertutup di penyimpanan yang aman, hanya dibuka oleh staf PUPA dengan izin khusus yang menangani pendaftaran atau mendampinginya, dan tidak disalin ke catatan kontak kami.
+* **Dokumen pendaftaran.** Saat keluarga mendaftar, kami meminta hasil tes psikologi dan IQ calon peserta serta catatan kesehatan singkat (alergi, kejang, obat selama jam PUPA, klinik yang dihubungi), supaya ia aman sejak hari pertama. Dokumen ini disimpan tertutup di penyimpanan yang aman. Hasil tes hanya dibuka oleh tim klinis PUPA. Catatan kesehatan hanya dibuka oleh tim klinis dan pendamping kelasnya. Keduanya tidak disalin ke catatan kontak kami.
 
 ### 5. Cara Kami Menggunakan Data Anda
 
@@ -88,7 +88,7 @@ Kami menyimpan data pribadi hanya selama diperlukan untuk tujuan-tujuan di atas:
 * **Ringkasan kontak** disimpan selama hubungan masih aktif dan dihapus atau dianonimkan bila tidak lagi diperlukan. Kami menggunakan soft-deletion untuk menjaga integritas audit yang diperlukan sebelum penghapusan permanen.
 * **Catatan donasi** disimpan selama jangka waktu yang diwajibkan oleh peraturan pembukuan dan perpajakan.
 * Kami tidak menyimpan rincian klinis yang sensitif dalam catatan otomatis (lihat Bagian 4).
-* **Pertanyaan pendaftaran** yang selesai tanpa calon peserta bergabung tidak lagi menyimpan nama atau kontak setelah 12 bulan. **Dokumen** yang dikirim untuknya (hasil tes dan catatan kesehatan) dihapus 3 bulan setelah pertanyaan ditutup. Bila Anda ingin dokumen disimpan untuk pendaftaran berikutnya, beri tahu kami.
+* Bila calon peserta tidak bergabung, dokumen yang dikirim (hasil tes dan catatan kesehatan) kami hapus 3 bulan setelah pertanyaan ditutup. Nama, kontak, dan jawaban formulir kami hapus 12 bulan setelah pertanyaan ditutup. Ingin dokumen disimpan untuk pendaftaran berikutnya? Beri tahu kami.
 
 ### 9. Cara Kami Melindungi Data Anda
 
