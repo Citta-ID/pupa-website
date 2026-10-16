@@ -20,14 +20,15 @@ const content = {
     hoursTitle: 'Office Hours',
     hours: 'Monday to Friday, 8:30 AM – 4:30 PM (WIB)',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
+    visitNote: 'Visits are by appointment. Message us on WhatsApp to arrange one.',
     mapsBtn: 'Open in Google Maps',
   },
   id: {
     metaTitle: 'Kontak PUPA Center — Kunjungi Kami di Alam Sutera, Tangerang',
     metaDescription: 'Hubungi PUPA Center untuk pendaftaran dan pertanyaan. WhatsApp, email, atau kunjungi kami di Ruko Prominence, Alam Sutera, Tangerang. Buka Senin–Jumat.',
     h1: 'Hubungi Kami',
-    intro: 'Kami senang mendengar dari Anda — baik Anda sedang mempertimbangkan untuk mendaftar, memiliki pertanyaan, atau sekadar ingin tahu lebih lanjut. Hubungi kami dengan cara yang paling nyaman bagi Anda.',
-    waBtn: 'Kirim pesan via WhatsApp',
+    intro: 'Ingin mendaftar, ada pertanyaan, atau sekadar ingin tahu tentang PUPA? Hubungi kami dengan cara yang paling nyaman untuk Anda.',
+    waBtn: 'Kirim WhatsApp',
     waNote: 'Biasanya cara tercepat menghubungi kami. Kami membalas dalam satu hari kerja.',
     phoneTitle: 'Telepon',
     emailTitle: 'Email',
@@ -35,6 +36,7 @@ const content = {
     hoursTitle: 'Jam operasional',
     hours: 'Senin sampai Jumat, pukul 08.30 – 16.30 WIB',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
+    visitNote: 'Kunjungan dengan janji dulu. Kirim WhatsApp untuk mengatur jadwal.',
     mapsBtn: 'Buka di Google Maps',
   },
   ko: {
@@ -50,6 +52,7 @@ const content = {
     hoursTitle: '운영 시간',
     hours: '월요일–금요일, 오전 8:30 – 오후 4:30 (인도네시아 서부 시간, WIB)',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
+    visitNote: '방문은 예약제로 운영합니다. WhatsApp으로 방문 일정을 정해 주세요.',
     mapsBtn: 'Google 지도에서 열기',
   },
 };
@@ -111,6 +114,7 @@ const wa = waLink(lang, 'contact');
       <div class="visit">
         <h2>{c.visitTitle}</h2>
         <address class="addr">{c.address.map((line) => <>{line}<br /></>)}</address>
+        <p class="visit-note">{c.visitNote}</p>
         <div class="map-wrap">
           <iframe
             title="PUPA Center location map"
@@ -154,6 +158,7 @@ const wa = waLink(lang, 'contact');
 /* Visit + map */
 .visit h2{margin-bottom:14px}
 .addr{font-style:normal;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
+.visit-note{color:var(--teal-900);font-weight:600;margin-bottom:18px}
 .map-wrap{border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 10px 30px rgba(11,68,65,.12)}
 .map-wrap iframe{width:100%;height:340px;border:0;display:block}
 .addr-link{display:inline-flex;align-items:center;min-height:44px;margin-top:16px;font-weight:600;text-decoration:none;color:var(--teal-700)}

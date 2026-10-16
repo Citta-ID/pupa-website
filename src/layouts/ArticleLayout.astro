@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { waLink } from '../utils/whatsapp';
 import { type Lang } from '../i18n/ui';
 
 interface Props {
@@ -15,6 +16,12 @@ interface Props {
 }
 const { lang, routeKey, title, description, date, image, backHref, backLabel, altUrls } = Astro.props;
 const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko' ? 'ko-KR' : 'en-US', { year: 'numeric', month: 'long' });
+// Articles for parents end with a way to reach PUPA; growth journeys (stories) do not.
+const cta = routeKey === 'blog' ? {
+  en: { q: 'Wondering if PUPA is the right fit?', btn: 'Get to know PUPA' },
+  id: { q: 'Ingin tahu apakah PUPA cocok?', btn: 'Kenalan dengan PUPA' },
+  ko: { q: 'PUPA가 잘 맞을지 궁금하신가요?', btn: 'PUPA 알아보기' },
+}[lang] : null;
 ---
 <Layout lang={lang} routeKey={routeKey} altUrls={altUrls} title={`${title} | PUPA Center`} description={description}>
   <article class="article">
@@ -32,6 +39,12 @@ const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko'
     )}
     <div class="wrap narrow article-body">
       <slot />
+      {cta && (
+        <aside class="article-cta">
+          <p class="article-cta-q">{cta.q}</p>
+          <a class="btn btn-primary" href={waLink(lang, 'article')} rel="noopener">{cta.btn}</a>
+        </aside>
+      )}
     </div>
   </article>
 </Layout>
@@ -52,4 +65,7 @@ const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko'
 .article-body :global(li){margin:6px 0;color:var(--ink)}
 .article-body :global(li)::marker{color:var(--teal-700)}
 .article-body :global(li)>:global(ul),.article-body :global(li)>:global(ol){margin:6px 0}
+.article-cta{margin-top:40px;padding:26px 28px;background:var(--cream);border:1px solid #EFE4D2;border-radius:var(--radius-lg)}
+.article-cta .article-cta-q{margin:0 0 14px;font-family:var(--font-display);font-weight:600;font-size:1.2rem;color:var(--teal-900)}
+.article-cta .btn-primary{color:#fff}
 </style>
