@@ -5,7 +5,7 @@ translationKey: "hari"
 lang: id
 slug: "hari-cerita"
 image: "/images/afm-9358.jpg"
-description: "Perjalanan **ARDHANA HARIWIDAGDO**, biasa kami kenal dengan nama **HARI** di PUPA Center dimulai dari komitmennya yang kuat untuk membangun kemandirian dan kesiapan memasuki dunia kerja."
+description: "Perjalanan Ardhana Hariwidagdo, yang biasa kami panggil Hari, di PUPA Center dimulai dari komitmennya yang kuat untuk membangun kemandirian dan kesiapan memasuki dunia kerja."
 ---
 
 Perjalanan **ARDHANA HARIWIDAGDO**, biasa kami kenal dengan nama **HARI** di PUPA Center dimulai dari komitmennya yang kuat untuk membangun kemandirian dan mempersiapkan diri memasuki dunia kerja. Tiga tahun mengikuti program PUPA, **Hari** adaptasi dalam berbagai latihan dan simulasi yang dirancang hingga pada fase praktik menyerupai situasi kerja nyata.

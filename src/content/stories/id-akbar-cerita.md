@@ -5,7 +5,7 @@ translationKey: "akbar"
 lang: id
 slug: "akbar-cerita"
 image: "/images/afm-9305.jpg"
-description: "**AKBAR WISNU WARDHANA**. Masa **Akbar** di PUPA Center dimulai sejak ia masih remaja. Melalui proses pendampingan program PUPA Mandiri hingga saat ini pada divisi PUPA Karya. Di s"
+description: "Masa Akbar Wisnu Wardhana di PUPA Center dimulai sejak ia masih remaja, melalui pendampingan program PUPA Mandiri hingga kini di divisi PUPA Karya."
 ---
 
 **AKBAR WISNU WARDHANA**. Masa **Akbar** di PUPA Center dimulai sejak ia masih remaja. Melalui proses pendampingan program PUPA Mandiri hingga saat ini pada divisi PUPA Karya. Di setiap tahap, Akbar mendapat ruang untuk mengenal dirinya, membangun keterampilan, dan menumbuhkan rasa percaya diri sesuai dengan yang dia perlukan.

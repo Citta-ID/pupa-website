@@ -5,7 +5,7 @@ translationKey: "owen"
 lang: id
 slug: "owen-cerita"
 image: "/images/afm-8982.jpg"
-description: "Langkah **OWEN ALBIE SAPUTRA** (Owen) di PUPA Center dimulai dari program kesiapan kerja. Pada program tersebut, Owen dikenalkan pada proses interaksi yang terjadi pada ruang lingk"
+description: "Langkah Owen Albie Saputra di PUPA Center dimulai dari program kesiapan kerja, tempat ia dikenalkan pada proses interaksi di ruang lingkup dunia kerja."
 ---
 
 Langkah **OWEN ALBIE SAPUTRA** (Owen) di PUPA Center dimulai dari program kesiapan kerja. Pada program tersebut, Owen dikenalkan pada proses interaksi yang terjadi pada ruang lingkup dunia kerja. Interaksi sosial adalah tantangan yang tidak mudah bagi Owen.

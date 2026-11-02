@@ -5,7 +5,7 @@ translationKey: "enzo"
 lang: en
 slug: "enzo-story"
 image: "/images/afm-9263.jpg"
-description: "Growth often begins with small but meaningful changes, and **Fiecenzo Hutahaean**’s journey at PUPA Center reflects that process. When Enzo first joined PUPA Mandiri, he showed strong preferences fo"
+description: "Growth often begins with small but meaningful changes, and Fiecenzo Hutahaean’s journey at PUPA Center reflects that process. When Enzo first joined PUPA Mandiri, he showed strong preferences for structure and routine."
 ---
 
 Growth often begins with small but meaningful changes, and **Fiecenzo Hutahaean**’s (Enzo) journey at PUPA Center reflects that process. When Enzo first joined PUPA Mandiri, he showed strong preferences for structure and routine. Unexpected changes (such as schedule adjustments or delays in pick-up time) could be difficult for him and often led to frustration. With consistent support and guided practice, Enzo gradually learned to respond to changes with greater flexibility. Over time, he developed stronger emotional regulation and adaptability, allowing him to manage unexpected situations more calmly and independently.
