@@ -70,8 +70,8 @@ const c = {
     <div class="wrap">
       <p class="gj-stories-lede">{c.storiesLede}</p>
       <div class="story-grid">
-        {stories.map((s) => (
-          <a class="story-card" href={`${storyBase}/${s.data.slug}/`}>
+        {stories.map((s, i) => (
+          <a class="story-card" data-reveal style={`--i:${i % 3}`} href={`${storyBase}/${s.data.slug}/`}>
             {s.data.image && <img src={s.data.image} alt="" loading="lazy" width="360" height="270" />}
             <div class="story-card-body">
               <h3>{s.data.title}</h3>

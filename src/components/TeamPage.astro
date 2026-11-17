@@ -132,7 +132,7 @@ const team = [
       <h2>{c.leadersTitle}</h2>
       <div class="leader-grid">
         {leaders.map((l, i) => (
-          <article class:list={['leader-card', i === leadOffsetIdx && leadOffsetCls]}>
+          <article class:list={['leader-card', i === leadOffsetIdx && leadOffsetCls]} data-reveal style={`--i:${i % 3}`}>
             <img src={l.photo} alt={l.alt[lang] ?? l.alt.en} loading="lazy" width="360" height="440"
                  onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" />
             <div class="leader-info">
@@ -150,8 +150,8 @@ const team = [
     <div class="wrap">
       <h2>{c.teamTitle}</h2>
       <ul class="team-grid">
-        {team.map((t) => (
-          <li class="member">
+        {team.map((t, i) => (
+          <li class="member" data-reveal style={`--i:${i % 4}`}>
             <img src={t.img} alt={t.name} loading="lazy" width="280" height="340" />
             <span>{t.name}</span>
           </li>

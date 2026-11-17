@@ -80,8 +80,8 @@ const c = content[lang] ?? content.en;
 
   <section class="donate-what">
     <div class="wrap card-grid">
-      {c.what.map((w) => (
-        <div class="card"><h2 class="small-h">{w[0]}</h2><p>{w[1]}</p></div>
+      {c.what.map((w, i) => (
+        <div class="card" data-reveal style={`--i:${i}`}><h2 class="small-h">{w[0]}</h2><p>{w[1]}</p></div>
       ))}
     </div>
   </section>
@@ -90,15 +90,15 @@ const c = content[lang] ?? content.en;
     <div class="wrap">
       <h2>{c.waysTitle}</h2>
       <div class="card-grid ways-grid">
-        <div class="card give-card">
+        <div class="card give-card" data-reveal style="--i:0">
           <span class="give-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
           <h3>{c.bank}</h3><p>{c.bankDetail}</p>
         </div>
-        <div class="card give-card">
+        <div class="card give-card" data-reveal style="--i:1">
           <span class="give-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M21 21v.01M17 21h.01M21 17h.01"/></svg></span>
           <h3>{c.qris}</h3><p>{c.qrisDetail}</p>
         </div>
-        <div class="card give-card">
+        <div class="card give-card" data-reveal style="--i:2">
           <span class="give-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-5h6v5"/><path d="M9 10h.01M15 10h.01"/></svg></span>
           <h3>{c.corp}</h3><p>{c.corpDetail}</p>
         </div>

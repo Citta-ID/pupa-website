@@ -36,6 +36,23 @@ html{scroll-behavior:smooth}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
 }
+
+/* ---- Scroll reveal ----------------------------------------------------
+   One gentle fade + 14px rise, played once. Hidden ONLY when the head
+   script has added html.reveal (JS on, motion allowed). Uses `translate`
+   + an animation so it never fights card hover `transform`/`transition`. */
+@keyframes pupa-reveal{from{opacity:0;translate:0 14px}to{opacity:1;translate:none}}
+html.reveal [data-reveal]:not(.is-in){opacity:0}
+html.reveal [data-reveal].is-in:not(.no-anim){
+  animation:pupa-reveal .5s cubic-bezier(.2,.65,.3,1) both;
+  animation-delay:calc(var(--i,0) * var(--step,90ms));
+}
+/* Reduce motion (toolbar switch) — same effect as the OS setting */
+html[data-a11y-motion="on"]{scroll-behavior:auto}
+html[data-a11y-motion="on"] *,html[data-a11y-motion="on"] *::before,html[data-a11y-motion="on"] *::after{animation:none!important;transition:none!important}
+html[data-a11y-motion="on"] [data-reveal]{opacity:1!important}
+@media (prefers-reduced-motion: reduce){html.reveal [data-reveal]{opacity:1!important}}
+@media print{html.reveal [data-reveal]{opacity:1!important;animation:none!important}}
 body{
   font-family:'Inter','Noto Sans KR',system-ui,sans-serif;
   font-size:18px;line-height:1.65;

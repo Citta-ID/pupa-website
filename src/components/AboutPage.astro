@@ -153,28 +153,28 @@ const pupaIcons = [
         <h2>{c.storyTitle}</h2>
         {c.story.map((par) => <p class="story-p">{par}</p>)}
       </div>
-      <img class="blob about-photo" src="/images/about-our-story.jpg" alt="" loading="lazy" width="480" height="420" />
+      <img class="blob about-photo" data-reveal src="/images/about-our-story.jpg" alt="" loading="lazy" width="480" height="420" />
     </div>
     <div class="wrap">
       <div class="hl-strip">
-        {c.highlights.map((h) => (
-          <div class="hl-item"><span class="hl-num">{h[0]}</span><span class="hl-label">{h[1]}</span></div>
+        {c.highlights.map((h, i) => (
+          <div class="hl-item" data-reveal style={`--i:${i}`}><span class="hl-num">{h[0]}</span><span class="hl-label">{h[1]}</span></div>
         ))}
       </div>
     </div>
   </section>
 
   <section class="group-band" aria-hidden="true">
-    <img src="/images/pupa-group-9696.jpg" alt="" loading="lazy" />
+    <img src="/images/pupa-group-9696.jpg" alt="" loading="lazy" data-reveal />
   </section>
 
   <section class="about-sec alt" id="mission">
     <div class="wrap">
       <h2>{c.missionTitle}</h2>
       <div class="mv-grid">
-        <div class="mv-card mv-1"><p class="mv-label">{c.mvLabels[0]}</p><p class="mv-text">{c.mission}</p></div>
-        <div class="mv-card mv-2"><p class="mv-label">{c.mvLabels[1]}</p><p class="mv-text">{c.vision}</p></div>
-        <div class="mv-card mv-3"><p class="mv-label">{c.mvLabels[2]}</p><p class="mv-text motto">{c.motto}</p></div>
+        <div class="mv-card mv-1" data-reveal style="--i:0"><p class="mv-label">{c.mvLabels[0]}</p><p class="mv-text">{c.mission}</p></div>
+        <div class="mv-card mv-2" data-reveal style="--i:1"><p class="mv-label">{c.mvLabels[1]}</p><p class="mv-text">{c.vision}</p></div>
+        <div class="mv-card mv-3" data-reveal style="--i:2"><p class="mv-label">{c.mvLabels[2]}</p><p class="mv-text motto">{c.motto}</p></div>
       </div>
       <p class="story-p mission-note">{c.missionNote}</p>
       <div class="values-block">
@@ -183,7 +183,7 @@ const pupaIcons = [
 
         <div class="pupa-letters" aria-hidden="true">
           {c.values.map((v, i) => (
-            <div class="letter-col" style={`color:${pupaColors[i]}`}>
+            <div class="letter-col" data-reveal style={`color:${pupaColors[i]};--i:${i}`}>
               <span class="letter-label">{v[0]}</span>
               <span class="big-letter">{pupaLetters[i]}<span class="letter-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={pupaIcons[i]}></svg></span></span>
             </div>
@@ -192,7 +192,7 @@ const pupaIcons = [
 
         <div class="value-defs">
           {c.values.map((v, i) => (
-            <div class="value-def" style={`--accent:${pupaColors[i]}`}>
+            <div class="value-def" data-reveal style={`--accent:${pupaColors[i]};--i:${i % 2}`}>
               <h4 class="vd-name" style={`color:${pupaColors[i]}`}>{v[0]}</h4>
               <p class="vd-text">{v[1]}</p>
               <span class="value-chip">{v[2]}</span>

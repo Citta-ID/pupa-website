@@ -158,7 +158,7 @@ const unitIcons = [
       <h2>{c.unitsTitle}</h2>
       <div class="units-grid">
         {c.units.map((u, i) => (
-          <article class="unit-card">
+          <article class="unit-card" data-reveal style={`--i:${i % 2}`}>
             <div class="unit-photo">
               <img src={unitImgs[i]} alt="" loading="lazy" width="480" height="320"
                    onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" />
@@ -181,7 +181,7 @@ const unitIcons = [
   </section>
 
   <section class="support-sec">
-    <div class="wrap support-inner">
+    <div class="wrap support-inner" data-reveal>
       <h2>{c.supportTitle}</h2>
       <p>{c.supportBody}</p>
       <a class="btn btn-primary" href={wa} rel="noopener">{c.supportCta}</a>

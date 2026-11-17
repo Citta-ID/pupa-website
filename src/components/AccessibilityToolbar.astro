@@ -13,6 +13,7 @@ const t = {
     contrast: 'High contrast',
     spacing: 'Readable spacing',
     links: 'Highlight links',
+    motion: 'Reduce motion',
     readAloud: 'Read page aloud',
     stop: 'Stop reading',
     reset: 'Reset all',
@@ -29,6 +30,7 @@ const t = {
     contrast: 'Kontras tinggi',
     spacing: 'Spasi mudah dibaca',
     links: 'Sorot tautan',
+    motion: 'Kurangi gerakan',
     readAloud: 'Bacakan halaman',
     stop: 'Hentikan',
     reset: 'Atur ulang',
@@ -45,6 +47,7 @@ const t = {
     contrast: '고대비',
     spacing: '읽기 쉬운 간격',
     links: '링크 강조',
+    motion: '움직임 줄이기',
     readAloud: '페이지 읽어주기',
     stop: '읽기 중지',
     reset: '모두 초기화',
@@ -89,6 +92,9 @@ const readLang = lang === 'id' ? 'id-ID' : lang === 'ko' ? 'ko-KR' : 'en-US';
   </button>
   <button class="a11y-switch" data-a11y="links" aria-pressed="false" type="button">
     <span>{t.links}</span><span class="a11y-state" data-on={t.on} data-off={t.off}>{t.off}</span>
+  </button>
+  <button class="a11y-switch" data-a11y="motion" aria-pressed="false" type="button">
+    <span>{t.motion}</span><span class="a11y-state" data-on={t.on} data-off={t.off}>{t.off}</span>
   </button>
 
   <button class="a11y-read" data-a11y="read" data-lang={readLang} data-stop={t.stop} type="button">
@@ -178,7 +184,7 @@ html[data-a11y-links="on"] a:not(.btn):not(.a11y-toggle):not(.a11y-read){
   (function () {
     const html = document.documentElement;
     const KEY = 'pupa-a11y';
-    const state = { text: 100, contrast: false, spacing: false, links: false };
+    const state = { text: 100, contrast: false, spacing: false, links: false, motion: false };
 
     // restore saved prefs
     try {
@@ -193,7 +199,8 @@ html[data-a11y-links="on"] a:not(.btn):not(.a11y-toggle):not(.a11y-read){
       html.setAttribute('data-a11y-contrast', state.contrast ? 'on' : 'off');
       html.setAttribute('data-a11y-spacing', state.spacing ? 'on' : 'off');
       html.setAttribute('data-a11y-links', state.links ? 'on' : 'off');
-      document.querySelectorAll('[data-a11y="contrast"],[data-a11y="spacing"],[data-a11y="links"]').forEach((btn) => {
+      html.setAttribute('data-a11y-motion', state.motion ? 'on' : 'off');
+      document.querySelectorAll('[data-a11y="contrast"],[data-a11y="spacing"],[data-a11y="links"],[data-a11y="motion"]').forEach((btn) => {
         const key = btn.getAttribute('data-a11y');
         const isOn = state[key];
         btn.setAttribute('aria-pressed', String(isOn));
@@ -227,7 +234,7 @@ html[data-a11y-links="on"] a:not(.btn):not(.a11y-toggle):not(.a11y-read){
 
     // Reset
     document.querySelector('[data-a11y="reset"]').addEventListener('click', () => {
-      state.text = 100; state.contrast = false; state.spacing = false; state.links = false;
+      state.text = 100; state.contrast = false; state.spacing = false; state.links = false; state.motion = false;
       apply();
       stopReading();
     });

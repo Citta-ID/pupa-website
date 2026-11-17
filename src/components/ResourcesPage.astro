@@ -107,13 +107,13 @@ const expectIcons = [
       <h3>{c.expectTitle}</h3>
       <div class="card-grid expect-grid">
         {c.expect.map((e, ei) => (
-          <div class="card icon-card">
+          <div class="card icon-card" data-reveal style={`--i:${ei % 3}`}>
             <span class="mini-icon" aria-hidden="true" set:html={expectIcons[ei % expectIcons.length]}></span>
             <h4>{e[0]}</h4><p>{e[1]}</p>
           </div>
         ))}
       </div>
-      <div class="community-card">
+      <div class="community-card" data-reveal>
         <div class="community-copy">
           <h3>{c.joinTitle}</h3>
           <p>{c.joinBody}</p>

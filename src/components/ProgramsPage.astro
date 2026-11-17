@@ -247,7 +247,7 @@ const extraImgs: Record<string, string> = {
   {sections.map((s, i) => (
     <section class={`program ${i % 2 ? 'alt' : ''}`} id={s.id}>
       <div class="wrap">
-        <div class="prog-intro">
+        <div class="prog-intro" data-reveal>
           <div>
             <span class="eyebrow">{s.d.tag}</span>
             <h2>{s.d.title}</h2>
@@ -262,7 +262,7 @@ const extraImgs: Record<string, string> = {
             <h3>{s.d.areasTitle}</h3>
             <div class="card-grid areas">
               {s.d.areas.map((a: string[], ai: number) => (
-                <div class="card icon-card">
+                <div class="card icon-card" data-reveal style={`--i:${ai % 3}`}>
                   <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={areaIcons[ai % areaIcons.length]}></svg></span>
                   <h4>{a[0]}</h4><p>{a[1]}</p>
                 </div>
@@ -272,15 +272,15 @@ const extraImgs: Record<string, string> = {
             <p>{s.d.stagesIntro}</p>
             <div class="card-grid">
               {s.d.stages.map((st: string[], n: number) => (
-                <div class="card num-card"><span class="stage-badge">{n + 1}</span><h4>{st[0]}</h4><p>{st[1]}</p></div>
+                <div class="card num-card" data-reveal style={`--i:${n}`}><span class="stage-badge">{n + 1}</span><h4>{st[0]}</h4><p>{st[1]}</p></div>
               ))}
             </div>
           </>
         )}
         {'blocks' in s.d && (
           <div class="card-grid">
-            {s.d.blocks.map((b: string[]) => (
-              <div class="card"><h4>{b[0]}</h4><p>{b[1]}</p></div>
+            {s.d.blocks.map((b: string[], bi: number) => (
+              <div class="card" data-reveal style={`--i:${bi % 3}`}><h4>{b[0]}</h4><p>{b[1]}</p></div>
             ))}
           </div>
         )}
@@ -295,7 +295,7 @@ const extraImgs: Record<string, string> = {
       <p class="prog-lede">{c.extra.lede}</p>
       <div class="card-grid areas extra-grid">
         {c.extra.classes.map((cl, i) => (
-          <div class="card photo-card">
+          <div class="card photo-card" data-reveal style={`--i:${i % 3}`}>
             {extraImgs[i]
               ? <img src={extraImgs[i]} alt="" loading="lazy" width="360" height="220" />
               : <div class="yoga-ph" aria-hidden="true">
@@ -310,7 +310,7 @@ const extraImgs: Record<string, string> = {
   </section>
 
   <section class="journey-band">
-    <div class="wrap journey-grid">
+    <div class="wrap journey-grid" data-reveal>
       <h2 class="journey-title">{c.journeyTitle}</h2>
       <div>
         <p class="journey-body">{c.journeyBody}</p>
@@ -320,7 +320,7 @@ const extraImgs: Record<string, string> = {
   </section>
 
   <section class="prog-cta">
-    <div class="wrap">
+    <div class="wrap" data-reveal>
       <h2>{c.ctaTitle}</h2>
       <p>{c.ctaBody}</p>
       <a class="btn btn-primary" href={p('enrollment')}>{c.ctaEnroll}</a>

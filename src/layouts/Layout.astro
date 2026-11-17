@@ -31,6 +31,21 @@ var l=((navigator.languages&&navigator.languages[0])||navigator.language||'').to
 if(l==='id'||l.indexOf('id-')===0||l==='in'||l.indexOf('in-')===0){location.replace('/id/')}
 else if(l==='ko'||l.indexOf('ko-')===0){location.replace('/ko/')}
 }catch(e){}})();`;
+const revealHeadScript = `(function(){try{var d=document.documentElement,m=false;
+try{m=!!JSON.parse(localStorage.getItem('pupa-a11y')||'{}').motion}catch(e){}
+if(m){d.setAttribute('data-a11y-motion','on');return}
+if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+d.classList.add('reveal')}catch(e){}})();`;
+// Anything already on screen (or scrolled past) appears instantly; the rest
+// fades in once as it enters. The huge top margin means jumping past an element
+// (End key, anchor link) still counts as 'entered', so nothing is left hidden above.
+// ~0.6 KB total, no library.
+const revealBodyScript = `(function(){var d=document.documentElement;if(!d.classList.contains('reveal'))return;
+var els=[].slice.call(document.querySelectorAll('[data-reveal]')),h=innerHeight;
+var io=new IntersectionObserver(function(es){es.forEach(function(e){
+if(e.isIntersecting||e.boundingClientRect.top<0){e.target.classList.add('is-in');if(!e.isIntersecting)e.target.classList.add('no-anim');io.unobserve(e.target)}})},
+{rootMargin:'9999px 0px -8% 0px'});
+els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.add('is-in','no-anim')}else io.observe(el)});})();`;
 ---
 <!DOCTYPE html>
 <html lang={lang}>
@@ -38,6 +53,7 @@ else if(l==='ko'||l.indexOf('ko-')===0){location.replace('/ko/')}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {isHomeGateway && <script is:inline set:html={langRedirectScript} />}
+  <script is:inline set:html={revealHeadScript} />
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={site + route[lang]} />
@@ -102,5 +118,6 @@ else if(l==='ko'||l.indexOf('ko-')===0){location.replace('/ko/')}
   </main>
   <Footer lang={lang} />
   <AccessibilityToolbar lang={lang} />
+  <script is:inline set:html={revealBodyScript} />
 </body>
 </html>

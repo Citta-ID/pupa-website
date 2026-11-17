@@ -25,8 +25,8 @@ const fmtDate = (d: Date) =>
 
   <section class="listing"><div class="wrap">
     <div class="post-grid">
-      {posts.map((p) => (
-        <a class="post-card" href={`/blog/${p.data.slug}/`}>
+      {posts.map((p, i) => (
+        <a class="post-card" data-reveal style={`--i:${i % 3}`} href={`/blog/${p.data.slug}/`}>
           {p.data.image && <img class="post-thumb" src={p.data.image} alt="" loading="lazy" width="360" height="225" />}
           <div class="post-info">
             <h2>{p.data.title}</h2>

@@ -5,6 +5,11 @@ import { type Lang } from '../i18n/ui';
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 
+// Years since PUPA began (2015). Computed at build time; the scheduled monthly
+// rebuild on the 1st (including 1 January) keeps it current with no manual edits.
+const PUPA_FOUNDED = 2015;
+const yearsSinceFounding = new Date().getFullYear() - PUPA_FOUNDED;
+
 // Board members. Order: Patron, Founder, then advisors.
 const members = [
   {
@@ -39,9 +44,9 @@ const members = [
     slug: 'joni', name: 'Joni',
     role: { en: 'Executive Board/Executive Director', id: 'Ketua Umum Dewan Pengurus/Direktur Eksekutif', ko: '집행이사회/사무총장 (Executive Board/Executive Director)' },
     bio: {
-      en: 'Joni founded PUPA Center 11 years ago, when it began as a small monthly gathering where parents could support one another. He saw what often happened after neurodivergent young people finished school: support systems disappeared, leaving families wondering what came next. Refusing to accept that reality, he built PUPA into what it is today — a place where neurodivergent young adults develop practical skills, greater independence, and meaningful opportunities for employment.',
-      id: 'Joni mendirikan PUPA Center 11 tahun lalu, saat tempat ini bermula sebagai pertemuan bulanan kecil bagi para orang tua untuk saling menguatkan. Ia menyaksikan apa yang kerap terjadi setelah anak muda neurodivergen selesai sekolah: sistem dukungan menghilang, dan keluarga kebingungan harus melangkah ke mana. Menolak menerima kenyataan itu, ia membangun PUPA menjadi seperti sekarang — tempat bagi dewasa muda neurodivergen untuk mengembangkan keterampilan praktis, kemandirian yang lebih besar, dan peluang kerja yang bermakna.',
-      ko: 'Joni는 11년 전, 부모들이 서로를 지지하는 작은 월례 모임으로 PUPA 센터를 시작했습니다. 그는 신경다양성 청년들이 학교를 마친 뒤 흔히 벌어지는 일을 보았습니다. 지원 체계가 사라지고, 가족들은 다음이 무엇인지 몰라 막막해집니다. 그 현실을 받아들이기를 거부하며, 그는 PUPA를 오늘의 모습으로 키워 냈습니다 — 신경다양성 청년들이 실용적인 기술과 더 큰 자립, 그리고 의미 있는 고용의 기회를 키워 가는 곳으로.',
+      en: 'Joni founded PUPA Center ' + yearsSinceFounding + ' years ago, when it began as a small monthly gathering where parents could support one another. He saw what often happened after neurodivergent young people finished school: support systems disappeared, leaving families wondering what came next. Refusing to accept that reality, he built PUPA into what it is today — a place where neurodivergent young adults develop practical skills, greater independence, and meaningful opportunities for employment.',
+      id: 'Joni mendirikan PUPA Center ' + yearsSinceFounding + ' tahun lalu, saat tempat ini bermula sebagai pertemuan bulanan kecil bagi para orang tua untuk saling menguatkan. Ia menyaksikan apa yang kerap terjadi setelah anak muda neurodivergen selesai sekolah: sistem dukungan menghilang, dan keluarga kebingungan harus melangkah ke mana. Menolak menerima kenyataan itu, ia membangun PUPA menjadi seperti sekarang — tempat bagi dewasa muda neurodivergen untuk mengembangkan keterampilan praktis, kemandirian yang lebih besar, dan peluang kerja yang bermakna.',
+      ko: 'Joni는 ' + yearsSinceFounding + '년 전, 부모들이 서로를 지지하는 작은 월례 모임으로 PUPA 센터를 시작했습니다. 그는 신경다양성 청년들이 학교를 마친 뒤 흔히 벌어지는 일을 보았습니다. 지원 체계가 사라지고, 가족들은 다음이 무엇인지 몰라 막막해집니다. 그 현실을 받아들이기를 거부하며, 그는 PUPA를 오늘의 모습으로 키워 냈습니다 — 신경다양성 청년들이 실용적인 기술과 더 큰 자립, 그리고 의미 있는 고용의 기회를 키워 가는 곳으로.',
     },
   },
   {
