@@ -7,16 +7,32 @@ interface Props {
   routeKey: string;
   title: string;
   description: string;
-  date?: Date;
+  date?: Date;            // shown on the page (articles)
+  published?: Date;       // metadata only (growth journeys)
   altUrls?: { en: string; id: string; ko: string };
   image?: string;
   backHref: string;
   backLabel: string;
 }
-const { lang, routeKey, title, description, date, image, backHref, backLabel, altUrls } = Astro.props;
+const { lang, routeKey, title, description, date, published, image, backHref, backLabel, altUrls } = Astro.props;
 const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko' ? 'ko-KR' : 'en-US', { year: 'numeric', month: 'long' });
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://www.pupacenter.org';
+const pubDate = date ?? published;
+const pageUrl = altUrls ? site + altUrls[lang] : site + Astro.url.pathname;
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': routeKey === 'blog' ? 'BlogPosting' : 'Article',
+  headline: title,
+  description,
+  inLanguage: lang,
+  mainEntityOfPage: pageUrl,
+  ...(image && { image: [site + image] }),
+  ...(pubDate && { datePublished: pubDate.toISOString().slice(0, 10) }),
+  author: { '@type': 'Organization', name: 'PUPA Center', url: site },
+  publisher: { '@type': 'Organization', name: 'PUPA Center', logo: { '@type': 'ImageObject', url: site + '/images/brand/pupa-logo.png' } },
+};
 ---
-<Layout lang={lang} routeKey={routeKey} altUrls={altUrls} title={`${title} | PUPA Center`} description={description}>
+<Layout lang={lang} routeKey={routeKey} altUrls={altUrls} title={`${title} | PUPA Center`} description={description} ogImage={image} ogType="article" publishedTime={pubDate?.toISOString().slice(0, 10)} jsonLd={articleLd}>
   <article class="article">
     <header class="article-head">
       <div class="wrap narrow">
@@ -27,7 +43,7 @@ const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko'
     </header>
     {image && (
       <div class="wrap narrow">
-        <img class="hero-img" src={image} alt="" loading="lazy" />
+        <img class="hero-img" src={image} alt="" width="760" height="570" fetchpriority="high" decoding="async" />
       </div>
     )}
     <div class="wrap narrow article-body">
@@ -42,10 +58,11 @@ const fmtDate = date?.toLocaleDateString(lang === 'id' ? 'id-ID' : lang === 'ko'
 .back{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none;color:var(--teal-700)}
 .back:hover{text-decoration:underline}
 .date{color:var(--ink-soft);margin-top:10px;font-size:.95rem}
-.hero-img{width:100%;border-radius:var(--radius-lg);margin-bottom:28px;aspect-ratio:4/3;object-fit:cover;object-position:center 20%}
+.hero-img{width:100%;height:auto;border-radius:var(--radius-lg);margin-bottom:28px;aspect-ratio:4/3;object-fit:cover;object-position:center 20%}
 .article-body{padding-bottom:80px}
 .article-body :global(p){margin:16px 0;color:var(--ink)}
 .article-body :global(h2),.article-body :global(h3){margin:32px 0 12px}
+.article-body :global(h2){font-size:1.3rem;letter-spacing:-0.005em}
 .article-body :global(a){color:var(--teal-700);font-weight:600}
 .article-body :global(img){border-radius:var(--radius);margin:20px 0}
 .article-body :global(ul),.article-body :global(ol){margin:16px 0;padding-left:1.5em}

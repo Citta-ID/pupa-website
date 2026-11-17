@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.1.3"
+    "astro": "^7.4.12"
   },
   "devDependencies": {
-    "wrangler": "^4.113.0"
+    "wrangler": "^4.163.0"
   },
   "overrides": {
     "sharp": "^0.35.0"

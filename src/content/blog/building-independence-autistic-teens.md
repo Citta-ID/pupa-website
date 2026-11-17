@@ -5,7 +5,7 @@ translationKey: "building-independence"
 lang: en
 slug: "building-independence-autistic-teens"
 image: "/images/a6701958.jpg"
-description: "Independence is one of the most common long-term goals families have for autistic teenagers. Many parents hope their children will eventually become more confident, responsible, an"
+description: "Independence rarely develops with age alone. For autistic teens, it is built gradually through consistent practice, support, and real-life experiences."
 ---
 
 Independence is one of the most common long-term goals families have for autistic teenagers. Many parents hope their children will eventually become more confident, responsible, and capable of managing aspects of daily life independently. However, independence is not something that develops automatically with age. It is often built gradually through consistent practice, support, and real-life experiences.

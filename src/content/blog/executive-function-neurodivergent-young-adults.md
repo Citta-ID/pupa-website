@@ -5,7 +5,7 @@ translationKey: "executive-function"
 lang: en
 slug: "executive-function-neurodivergent-young-adults"
 image: "/images/a6701555-edited.jpg"
-description: "Executive functioning refers to a group of mental skills that help individuals organize, plan, manage tasks, regulate emotions, and adapt to daily situations. Many autistic and neu"
+description: "Executive functioning helps people plan, organize, manage tasks, and adapt. Many autistic and neurodivergent young adults find these skills challenging."
 ---
 
 Executive functioning refers to a group of mental skills that help individuals organize, plan, manage tasks, regulate emotions, and adapt to daily situations. Many autistic and neurodivergent young adults experience challenges with executive functioning, which can affect routines, communication, learning, and [independence](/blog/building-independence-autistic-teens).

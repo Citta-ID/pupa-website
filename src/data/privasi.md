@@ -5,13 +5,13 @@
 
 *Catatan untuk pembaca muda: jika Anda berusia di bawah 18 tahun atau memiliki wali, bacalah kebijakan ini bersama orang tua atau wali Anda, agar kalian dapat memutuskan bersama bagaimana informasi Anda dibagikan kepada kami.*
 
-### 1. Tentang Kami
+## 1. Tentang Kami
 
 PUPA Center (Yayasan Perisai Unggul Pelita Anugrah) — "PUPA", "kami" — adalah pusat pengembangan di Tangerang, Indonesia, yang menyediakan pendampingan kecakapan hidup dan kesiapan kerja bagi anak muda neurodivergen. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi ketika Anda mengunjungi situs web kami atau berkomunikasi dengan kami, termasuk melalui layanan pesan WhatsApp dan Telegram kami.
 
 **Kontak:** Email: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko Prominence Blok 38E No. 42-43, Jl. Sutera Barat Boulevard, Alam Sutera, Tangerang 15143, Indonesia · +62 818 533 698
 
-### 2. Ruang Lingkup
+## 2. Ruang Lingkup
 
 Kebijakan ini mencakup data pribadi yang kami proses ketika Anda:
 
@@ -22,7 +22,7 @@ Kebijakan ini mencakup data pribadi yang kami proses ketika Anda:
 
 Layanan pesan kami menggunakan WhatsApp Business Platform (Meta) dan Telegram Bot Platform. Penggunaan WhatsApp dan Telegram oleh Anda juga tunduk pada kebijakan privasi masing-masing layanan tersebut.
 
-### 3. Pengunjung Situs Web
+## 3. Pengunjung Situs Web
 
 Situs web kami bersifat informasional. Kami menjaga agar aktivitas di peramban (browser) Anda tetap seminimal mungkin:
 
@@ -32,7 +32,7 @@ Situs web kami bersifat informasional. Kami menjaga agar aktivitas di peramban (
 * **Pengaturan yang tersimpan di perangkat Anda.** Jika Anda memilih bahasa melalui tombol bahasa, atau mengubah pengaturan aksesibilitas kami (seperti ukuran teks atau kontras), preferensi tersebut disimpan di penyimpanan lokal peramban Anda sendiri agar situs dapat mengingatnya. Preferensi ini tidak pernah dikirimkan kepada kami, dan Anda dapat menghapusnya kapan saja melalui pengaturan peramban.
 * **Tautan eksternal.** Tautan ke WhatsApp, Instagram, YouTube, dan Google Maps akan membawa Anda ke layanan yang tunduk pada kebijakan privasi masing-masing.
 
-### 4. Data Pribadi yang Kami Kumpulkan
+## 4. Data Pribadi yang Kami Kumpulkan
 
 Bergantung pada cara Anda berinteraksi dengan kami, kami dapat mengumpulkan:
 
@@ -41,7 +41,7 @@ Bergantung pada cara Anda berinteraksi dengan kami, kami dapat mengumpulkan:
 * **Konteks hubungan:** informasi yang Anda pilih untuk dibagikan mengenai situasi atau pertanyaan Anda (misalnya, bahwa Anda adalah orang tua yang menanyakan program kami, atau informasi jadwal dan kehadiran peserta yang terdaftar).
 * **Catatan donasi:** jika Anda berdonasi melalui transfer bank atau QRIS, nama dan detail transfer yang tercantum pada catatan bank kami, yang kami simpan untuk keperluan pembukuan dan sesuai ketentuan hukum.
 
-#### Data Pribadi yang Bersifat Spesifik
+### Data Pribadi yang Bersifat Spesifik
 
 Sebagian informasi yang mungkin Anda bagikan — terkait kesehatan, disabilitas, atau kebutuhan perkembangan seseorang — termasuk **data pribadi yang bersifat spesifik** menurut Undang-Undang Pelindungan Data Pribadi (UU No. 27 Tahun 2022). Kami menangani kategori ini dengan kehati-hatian ekstra:
 
@@ -49,7 +49,7 @@ Sebagian informasi yang mungkin Anda bagikan — terkait kesehatan, disabilitas,
 * Bila diperlukan untuk kesinambungan layanan, kami hanya menyimpan **ringkasan umum yang bersifat non-klinis** (misalnya, "orang tua menanyakan program kecakapan hidup"), bukan rincian klinis atau medis.
 * Informasi sensitif diproses hanya sebatas yang diperlukan untuk memberikan dukungan dan mengarahkan Anda kepada anggota tim kami yang tepat.
 
-### 5. Cara Kami Menggunakan Data Anda
+## 5. Cara Kami Menggunakan Data Anda
 
 Kami menggunakan data pribadi Anda untuk:
 
@@ -63,11 +63,11 @@ Kami menggunakan data pribadi Anda untuk:
 
 Kami memproses data Anda berdasarkan **persetujuan** Anda, **kepentingan yang sah** kami dalam menjalankan PUPA dan menanggapi Anda, serta untuk memenuhi layanan kami kepada keluarga yang terdaftar. Untuk data pribadi yang bersifat spesifik (sensitif) mengenai peserta terdaftar, kami berpegang pada **persetujuan peserta atau walinya**.
 
-### 6. Pesan Otomatis dan Penanganan oleh Staf
+## 6. Pesan Otomatis dan Penanganan oleh Staf
 
 Layanan WhatsApp dan Telegram kami menggunakan bantuan otomatis agar kami dapat merespons dengan cepat dan menangani notifikasi rutin. Percakapan yang memerlukan pertimbangan pribadi atau menyangkut hal sensitif ditangani oleh, atau dialihkan kepada, staf PUPA. Kami tidak menggunakan pesan Anda untuk membuat keputusan otomatis yang menimbulkan akibat hukum atau akibat signifikan serupa terhadap Anda tanpa keterlibatan manusia.
 
-### 7. Pihak yang Menerima Data Anda
+## 7. Pihak yang Menerima Data Anda
 
 Kami **tidak** menjual data pribadi Anda. Kami hanya membagikannya:
 
@@ -77,7 +77,7 @@ Kami **tidak** menjual data pribadi Anda. Kami hanya membagikannya:
 
 Pesan kami disampaikan melalui Meta (WhatsApp) dan Telegram, yang memproses pengiriman pesan pada infrastruktur mereka. Sebagian penyedia layanan kami dapat memproses data di luar Indonesia; dalam hal demikian, kami mengambil langkah-langkah yang sesuai dengan UU PDP No. 27/2022 untuk transfer tersebut.
 
-### 8. Berapa Lama Kami Menyimpan Data Anda
+## 8. Berapa Lama Kami Menyimpan Data Anda
 
 Kami menyimpan data pribadi hanya selama diperlukan untuk tujuan-tujuan di atas:
 
@@ -86,13 +86,13 @@ Kami menyimpan data pribadi hanya selama diperlukan untuk tujuan-tujuan di atas:
 * **Catatan donasi** disimpan selama jangka waktu yang diwajibkan oleh peraturan pembukuan dan perpajakan.
 * Kami tidak menyimpan rincian klinis yang sensitif dalam catatan otomatis (lihat Bagian 4).
 
-### 9. Cara Kami Melindungi Data Anda
+## 9. Cara Kami Melindungi Data Anda
 
 Kami menerapkan langkah teknis dan organisasi yang sesuai dengan tingkat sensitivitas data, termasuk kontrol akses yang membatasi data hanya bagi staf yang membutuhkannya, penyimpanan yang diamankan untuk dokumen sensitif, dan enkripsi saat pengiriman. Tidak ada sistem yang sepenuhnya aman, tetapi kami berupaya melindungi informasi Anda dan membatasi apa yang kami kumpulkan dan simpan.
 
 **Jika terjadi kebocoran data:** apabila terjadi kegagalan pelindungan data pribadi yang berdampak pada data Anda, kami akan memberitahukannya kepada Anda secara tertulis (elektronik maupun non-elektronik) dan melaporkannya kepada otoritas yang berwenang dalam jangka waktu yang diwajibkan oleh UU PDP No. 27/2022 — paling lambat 3×24 jam sejak kami mengetahuinya — termasuk apa yang terjadi, data apa yang terdampak, dan langkah yang kami ambil.
 
-### 10. Hak-Hak Anda
+## 10. Hak-Hak Anda
 
 Berdasarkan UU PDP No. 27/2022, Anda memiliki hak-hak atas data pribadi Anda, termasuk untuk:
 
@@ -104,15 +104,15 @@ Berdasarkan UU PDP No. 27/2022, Anda memiliki hak-hak atas data pribadi Anda, te
 
 Untuk menggunakan hak-hak tersebut, hubungi kami di [info@pupacenter.org](mailto:info@pupacenter.org). Kami akan menanggapi dalam jangka waktu yang ditentukan oleh hukum.
 
-### 11. Anak dan Peserta
+## 11. Anak dan Peserta
 
 PUPA mendampingi anak muda, dan kami berkomunikasi terutama dengan orang tua dan wali. Bila kami memproses data pribadi mengenai anak (di bawah 18 tahun menurut hukum Indonesia) atau seseorang yang berada di bawah perwalian atau pengampuan, kami melakukannya dengan persetujuan orang tua atau wali sebagaimana diwajibkan oleh UU PDP No. 27/2022, dan kami menangani data tersebut dengan kehati-hatian khusus.
 
-### 12. Perubahan Kebijakan Ini
+## 12. Perubahan Kebijakan Ini
 
 Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Versi terbaru akan kami tampilkan di halaman ini dengan tanggal "Terakhir diperbarui" yang disesuaikan. Jika terdapat perubahan signifikan pada cara kami menangani data pribadi, kami akan mengambil langkah yang wajar untuk memberitahukannya kepada keluarga yang aktif berkomunikasi dengan kami, misalnya melalui saluran WhatsApp kami.
 
-### 13. Hubungi Kami
+## 13. Hubungi Kami
 
 Jika Anda memiliki pertanyaan mengenai kebijakan ini atau cara kami menangani data pribadi Anda, silakan hubungi:
 

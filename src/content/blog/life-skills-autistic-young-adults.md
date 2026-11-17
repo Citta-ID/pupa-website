@@ -5,7 +5,7 @@ translationKey: "life-skills"
 lang: en
 slug: "life-skills-autistic-young-adults"
 image: "/images/a6701680.jpg"
-description: "Life skills are an essential part of preparing autistic and neurodivergent young adults for adulthood. While academic learning is important, daily living skills often play an equal"
+description: "Daily living skills can matter as much as academic learning in preparing autistic young adults for independence, confidence, and life in the community."
 ---
 
 Life skills are an essential part of preparing autistic and neurodivergent young adults for adulthood. While academic learning is important, daily living skills often play an equally significant role in supporting independence, confidence, and meaningful participation in the community.

@@ -11,8 +11,14 @@ interface Props {
   altUrls?: { en: string; id: string; ko: string };  // per-page overrides (article translations)
   title: string;
   description: string;
+  ogImage?: string;        // site-relative path, e.g. an article's own photo
+  ogType?: 'website' | 'article';
+  publishedTime?: string;  // ISO date, articles only
+  jsonLd?: object;         // extra structured data (e.g. Article)
+  noindex?: boolean;
 }
-const { lang, routeKey, title, description, altUrls } = Astro.props;
+const { lang, routeKey, title, description, altUrls, ogImage, ogType = 'website', publishedTime, jsonLd, noindex } = Astro.props;
+const ogImageUrl = (Astro.site?.toString().replace(/\/$/, '') ?? 'https://www.pupacenter.org') + (ogImage ?? '/images/brand/og-image.jpg');
 const t = useTranslations(lang);
 const route = altUrls ?? (routes[routeKey] ?? routes.home);
 const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://www.pupacenter.org';
@@ -56,6 +62,7 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
   <script is:inline set:html={revealHeadScript} />
   <title>{title}</title>
   <meta name="description" content={description} />
+  {noindex && <meta name="robots" content="noindex" />}
   <link rel="canonical" href={site + route[lang]} />
   <link rel="alternate" hreflang="en" href={site + route.en} />
   <link rel="alternate" hreflang="id" href={site + route.id} />
@@ -64,9 +71,10 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
   <link rel="icon" href="/favicon.png" type="image/png" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType} />
+  {publishedTime && <meta property="article:published_time" content={publishedTime} />}
   <meta property="og:url" content={site + route[lang]} />
-  <meta property="og:image" content={site + '/images/brand/og-image.jpg'} />
+  <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#00534B" />
   <meta property="og:locale" content={lang === 'id' ? 'id_ID' : lang === 'ko' ? 'ko_KR' : 'en_US'} />
@@ -84,6 +92,7 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
       ? 'Pusat pengembangan kecakapan hidup dan kesiapan kerja bagi anak muda neurodivergen di Tangerang, Indonesia.'
       : 'A development center for life skills and work readiness for neurodivergent young adults in Tangerang, Indonesia.',
     slogan: 'Transform to shine',
+    foundingDate: '2015',
     email: 'info@pupacenter.org',
     telephone: '+62818533698',
     address: {
@@ -106,6 +115,7 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
       'https://www.youtube.com/@PUPACenter',
     ],
   })} />
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />

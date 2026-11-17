@@ -5,7 +5,7 @@ translationKey: "vocational-readiness"
 lang: en
 slug: "vocational-readiness-neurodivergent-young-adults"
 image: "/images/dji-20260112112138-0105-d-pa2.jpg"
-description: "Vocational readiness is an important part of preparing neurodivergent young adults for adulthood and community participation. While employment outcomes may look different for every"
+description: "Workplace experiences can help neurodivergent young adults build confidence, communication skills, responsibility, and independence as they prepare for work."
 ---
 
 Vocational readiness is an important part of preparing neurodivergent young adults for adulthood and [community participation](/blog/community-participation-neurodivergent-young-adults). While employment outcomes may look different for every individual, workplace-related experiences can help build confidence, communication skills, responsibility, and independence.

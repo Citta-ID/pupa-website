@@ -27,7 +27,7 @@ const wa = waLink(lang, 'website');
         <p class="foot-loc">{t('footer.location')}</p>
       </div>
       <div>
-        <h3>{t('footer.programs')}</h3>
+        <h2 class="foot-h">{t('footer.programs')}</h2>
         <ul>
           <li><a href={p('programs')}>{t('nav.programs.overview')}</a></li>
           <li><a href={p('programs') + '#mandiri'}>Mandiri</a></li>
@@ -37,7 +37,7 @@ const wa = waLink(lang, 'website');
         </ul>
       </div>
       <div>
-        <h3>{t('footer.about')}</h3>
+        <h2 class="foot-h">{t('footer.about')}</h2>
         <ul>
           <li><a href={p('about')}>{t('nav.about.story')}</a></li>
           <li><a href={p('about') + '#mission'}>{t('nav.about.mission')}</a></li>
@@ -47,7 +47,7 @@ const wa = waLink(lang, 'website');
         </ul>
       </div>
       <div>
-        <h3>{t('footer.action')}</h3>
+        <h2 class="foot-h">{t('footer.action')}</h2>
         <ul>
           <li><a href={p('donate')}>{t('nav.donate')}</a></li>
           <li><a href={p('getInvolved') + '#volunteer'}>{t('nav.involved.volunteer')}</a></li>
@@ -121,7 +121,7 @@ const wa = waLink(lang, 'website');
 .tagline{font-size:.92rem;letter-spacing:.04em;color:#fff;margin-top:3px!important}
 .blurb{margin-top:12px;max-width:34ch;color:#C8DEDC;font-size:.92rem;line-height:1.55}
 .foot-loc{margin-top:1.55em;max-width:34ch;color:#C8DEDC;font-size:.92rem;line-height:1.55}
-.site-footer h3{color:var(--orange-500);font-size:1rem;font-family:var(--font-display);font-weight:700;letter-spacing:0;text-transform:none;margin-bottom:12px}
+.site-footer .foot-h{color:var(--orange-500);font-size:1rem;font-family:var(--font-display);font-weight:700;letter-spacing:0;text-transform:none;margin-bottom:12px}
 ul{list-style:none}
 li a{display:inline-flex;align-items:center;min-height:30px;padding:2px 0;font-size:.92rem;color:#C8DEDC;text-decoration:none}
 li a:hover{color:#fff;text-decoration:underline}

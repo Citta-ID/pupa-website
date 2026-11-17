@@ -2,9 +2,11 @@
 #
 # The PUPA site is a static build, so a future-dated article only appears
 # after a build runs on/after its date. This workflow pushes an empty commit
-# on the 1st and 15th of each month, which triggers Cloudflare's normal
-# build-on-push. The future-date filter (src/utils/published.ts) then reveals
-# any article whose date has arrived — no manual step needed.
+# on the 1st of each month (with the 2nd and 3rd as backups), which triggers
+# Cloudflare's normal build-on-push. The future-date filter in the blog
+# index/slug pages (`+p.data.date <= Date.now()`) then reveals any article
+# whose date has arrived. The same rebuild keeps build-time values current,
+# such as the "years since PUPA began" on the Board page.
 #
 # You can also publish on demand: Actions tab -> "Publish scheduled articles"
 # -> "Run workflow".
@@ -31,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0 (pinned)
 
       - name: Push an empty commit to trigger a Cloudflare rebuild
         run: |

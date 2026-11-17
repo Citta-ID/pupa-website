@@ -5,7 +5,7 @@ translationKey: "akbar"
 lang: en
 slug: "akbar-story"
 image: "/images/afm-9305.jpg"
-description: "Akbar’s journey at PUPA Center began when he was still a teenager. Over the years, he grew and developed alongside PUPA Center, engaging in a long-term, structured process that sup"
+description: "Akbar joined PUPA Center as a teenager. Over the years, a long-term, structured process supported his growth, independence, and readiness for adult life."
 ---
 
 Akbar’s journey at PUPA Center began when he was still a teenager. Over the years, he grew and developed alongside PUPA Center, engaging in a long-term, structured process that supported his personal growth, independence, and readiness for adult life. Through consistent participation in PUPA Center’s programs, Akbar was given the space and guidance to build skills, confidence, and self-awareness at his own pace.
