@@ -21,6 +21,9 @@ const content = {
     hours: 'Monday to Friday, 8:30 AM – 4:30 PM (WIB)',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
     mapsBtn: 'Open in Google Maps',
+    mapLoad: 'Show map',
+    mapNote: 'The map is provided by Google. Loading it connects your browser to Google Maps.',
+    mapTitle: 'PUPA Center location map',
   },
   id: {
     metaTitle: 'Kontak PUPA Center — Kunjungi Kami di Alam Sutera, Tangerang',
@@ -36,6 +39,9 @@ const content = {
     hours: 'Senin sampai Jumat, pukul 08.30 – 16.30 WIB',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
     mapsBtn: 'Buka di Google Maps',
+    mapLoad: 'Tampilkan peta',
+    mapNote: 'Peta disediakan oleh Google. Memuatnya akan menghubungkan peramban Anda ke Google Maps.',
+    mapTitle: 'Peta lokasi PUPA Center',
   },
   ko: {
     metaTitle: 'PUPA 센터 연락처 — 탕에랑 알람 수테라로 오세요',
@@ -51,6 +57,9 @@ const content = {
     hours: '월요일–금요일, 오전 8:30 – 오후 4:30 (인도네시아 서부 시간, WIB)',
     address: ['Ruko Prominence Blok 38E No. 42-43', 'Jl. Sutera Barat Boulevard', 'Alam Sutera, Tangerang 15143', 'Indonesia'],
     mapsBtn: 'Google 지도에서 열기',
+    mapLoad: '지도 보기',
+    mapNote: '지도는 Google에서 제공합니다. 지도를 불러오면 브라우저가 Google 지도에 연결됩니다.',
+    mapTitle: 'PUPA 센터 위치 지도',
   },
 };
 const c = content[lang] ?? content.en;
@@ -112,10 +121,19 @@ const wa = waLink(lang, 'contact');
         <h2>{c.visitTitle}</h2>
         <address class="addr">{c.address.map((line) => <>{line}<br /></>)}</address>
         <div class="map-wrap">
-          <iframe
-            title="PUPA Center location map"
-            src="https://maps.google.com/maps?q=PUPA%20Center%2C%20Ruko%20Prominence%20Blok%2038E%2C%20Alam%20Sutera%2C%20Tangerang&z=16&output=embed"
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- Tap-to-load: Google is contacted only when the visitor asks for the map -->
+          <div class="map-ph">
+            <svg class="map-art" viewBox="0 0 400 340" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round">
+              <path d="M-20 90 C 80 70, 160 120, 420 80"/><path d="M-20 250 C 120 230, 260 290, 420 240"/>
+              <path d="M110 -20 C 120 100, 90 220, 130 360"/><path d="M290 -20 C 270 120, 320 220, 300 360"/>
+              <path stroke-width="4" d="M-20 170 L 420 160"/><path stroke-width="4" d="M200 -20 L 210 360"/>
+            </svg>
+            <div class="map-ph-inner">
+              <svg class="map-pin" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+              <button type="button" class="btn btn-primary map-load" data-map-src="https://maps.google.com/maps?q=PUPA%20Center%2C%20Ruko%20Prominence%20Blok%2038E%2C%20Alam%20Sutera%2C%20Tangerang&z=16&output=embed" data-map-title={c.mapTitle}>{c.mapLoad}</button>
+              <p class="map-note">{c.mapNote}</p>
+            </div>
+          </div>
         </div>
         <a class="addr-link" href="https://maps.app.goo.gl/tPCkDTf2Cf6pa3Dp7" rel="noopener">{c.mapsBtn} →</a>
       </div>
@@ -155,6 +173,11 @@ const wa = waLink(lang, 'contact');
 .visit h2{margin-bottom:14px}
 .addr{font-style:normal;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
 .map-wrap{border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 10px 30px rgba(11,68,65,.12)}
+.map-ph{position:relative;height:340px;background:var(--teal-050);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+.map-art{position:absolute;inset:0;width:100%;height:100%;color:var(--teal-100)}
+.map-ph-inner{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px;max-width:36ch}
+.map-pin{width:44px;height:44px;color:var(--orange-500)}
+.map-note{font-size:.9rem;color:var(--ink-soft);margin:0}
 .map-wrap iframe{width:100%;height:340px;border:0;display:block}
 .addr-link{display:inline-flex;align-items:center;min-height:44px;margin-top:16px;font-weight:600;text-decoration:none;color:var(--teal-700)}
 .addr-link:hover{text-decoration:underline}
@@ -163,3 +186,20 @@ const wa = waLink(lang, 'contact');
   .contact-layout{grid-template-columns:1fr;gap:36px}
 }
 </style>
+
+<script>
+  // Load the Google map only when the visitor asks for it.
+  document.querySelectorAll<HTMLButtonElement>('.map-load').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const wrap = btn.closest('.map-wrap');
+      if (!wrap) return;
+      const frame = document.createElement('iframe');
+      frame.title = btn.dataset.mapTitle || 'Map';
+      frame.src = btn.dataset.mapSrc || '';
+      frame.referrerPolicy = 'no-referrer-when-downgrade';
+      frame.setAttribute('allowfullscreen', '');
+      wrap.replaceChildren(frame);
+      frame.focus();
+    });
+  });
+</script>

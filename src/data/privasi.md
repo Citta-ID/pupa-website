@@ -30,6 +30,7 @@ Situs web kami bersifat informasional. Kami menjaga agar aktivitas di peramban (
 * **Data teknis.** Penyedia hosting kami (Cloudflare) memproses informasi teknis standar — seperti alamat IP dan halaman yang diminta — sebatas yang diperlukan untuk menayangkan situs secara aman dan andal. Kami tidak menggunakan informasi ini untuk mengidentifikasi pengunjung.
 * **Font.** Font kami disimpan di situs web kami sendiri, sehingga membuka halaman tidak mengirimkan permintaan apa pun ke layanan font pihak ketiga.
 * **Pengaturan yang tersimpan di perangkat Anda.** Jika Anda memilih bahasa melalui tombol bahasa, atau mengubah pengaturan aksesibilitas kami (seperti ukuran teks atau kontras), preferensi tersebut disimpan di penyimpanan lokal peramban Anda sendiri agar situs dapat mengingatnya. Preferensi ini tidak pernah dikirimkan kepada kami, dan Anda dapat menghapusnya kapan saja melalui pengaturan peramban.
+* **Peta di halaman Kontak.** Peta Google hanya dimuat jika Anda memilih “Tampilkan peta”. Memuatnya akan menghubungkan peramban Anda ke Google, sesuai kebijakan privasi Google.
 * **Tautan eksternal.** Tautan ke WhatsApp, Instagram, YouTube, dan Google Maps akan membawa Anda ke layanan yang tunduk pada kebijakan privasi masing-masing.
 
 ## 4. Data Pribadi yang Kami Kumpulkan

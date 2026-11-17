@@ -30,6 +30,7 @@ Our website is an informational site. We keep what happens in your browser to a 
 * **Technical data.** Our hosting provider (Cloudflare) processes standard technical information — such as your IP address and the pages requested — as necessary to deliver the site securely and reliably. We do not use this information to identify visitors.
 * **Fonts.** Our fonts are stored on our own website, so loading a page does not send any request to a third-party font service.
 * **Settings stored on your device.** If you choose a language with the language toggle, or adjust our accessibility settings (such as text size or contrast), those preferences are saved in your own browser's local storage so the site remembers them. They are never transmitted to us, and you can clear them at any time through your browser settings.
+* **Map on our Contact page.** The Google map loads only if you choose “Show map”. Loading it connects your browser to Google, under Google’s privacy policy.
 * **External links.** Links to WhatsApp, Instagram, YouTube, and Google Maps take you to services governed by their own privacy policies.
 
 ## 4. The Personal Data We Collect
