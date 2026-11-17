@@ -5,7 +5,7 @@ translationKey: "vocational-readiness"
 lang: ko
 slug: "vocational-readiness-neurodivergent-young-adults-ko"
 image: "/images/dji-20260112112138-0105-d-pa2.jpg"
-description: "취업 준비는 신경다양성 청년의 성인기와 지역사회 참여를 준비하는 데 중요한 부분입니다. 고용의 결과는 사람마다 다를 수 있지만, 일과 관련된 경험은 자신감과 의사소통 기술, 책임감과 자립을 키우는 데 힘이 됩니다."
+description: "일터에서의 경험은 신경다양성 청년이 일을 준비하면서 자신감과 의사소통 기술, 책임감, 자립심을 키우는 데 도움이 됩니다."
 ---
 
 취업 준비는 신경다양성 청년의 성인기와 [지역사회 참여](/ko/blog/community-participation-neurodivergent-young-adults-ko/)를 준비하는 데 중요한 부분입니다. 고용의 결과는 사람마다 다를 수 있지만, 일과 관련된 경험은 자신감과 의사소통 기술, 책임감과 자립을 키우는 데 힘이 됩니다.

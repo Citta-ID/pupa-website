@@ -5,7 +5,7 @@ translationKey: "community-participation"
 lang: id
 slug: "community-participation-neurodivergent-young-adults-id"
 image: "/images/afm-9647.jpg"
-description: "Partisipasi dalam komunitas adalah bagian penting dari kedewasaan dan kemandirian. Kesempatan berpartisipasi di lingkungan komunitas membantu membangun kepercayaan diri dan keterampilan sosial."
+description: "Ikut serta dalam kehidupan komunitas membantu dewasa muda autistik dan neurodivergen membangun percaya diri, kemampuan berkomunikasi, daya adaptasi, dan kepekaan sosial."
 ---
 
 Partisipasi dalam komunitas adalah bagian penting dari kedewasaan dan kemandirian. Bagi dewasa muda autistik dan neurodivergen, kesempatan untuk berpartisipasi di lingkungan komunitas dapat membantu mengembangkan kepercayaan diri, keterampilan komunikasi, kemampuan beradaptasi, dan kesadaran sosial.

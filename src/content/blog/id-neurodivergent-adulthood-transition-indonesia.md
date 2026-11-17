@@ -5,7 +5,7 @@ translationKey: "adulthood-transition"
 lang: id
 slug: "neurodivergent-adulthood-transition-indonesia-id"
 image: "/images/pupa-group-9707.jpg"
-description: "Transisi menuju kedewasaan dapat menjadi periode yang menantang bagi banyak keluarga dewasa muda autistik dan neurodivergen di Indonesia, terutama setelah pendidikan formal berakhir."
+description: "Transisi menuju dewasa dapat menantang bagi keluarga dewasa muda neurodivergen di Indonesia, karena jalur pendampingan dewasa yang terstruktur masih terus berkembang."
 ---
 
 Transisi menuju kedewasaan dapat menjadi periode yang menantang bagi banyak keluarga dewasa muda autistik dan neurodivergen di Indonesia. Setelah pendidikan formal berakhir, orang tua sering mulai mencari kesempatan yang dapat mendukung kemandirian, partisipasi komunitas, dan perkembangan jangka panjang.

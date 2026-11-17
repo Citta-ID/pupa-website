@@ -5,7 +5,7 @@ translationKey: "community-participation"
 lang: ko
 slug: "community-participation-neurodivergent-young-adults-ko"
 image: "/images/afm-9647.jpg"
-description: "지역사회 참여는 성인기와 자립의 중요한 부분입니다. 자폐와 신경다양성 청년에게 지역사회 환경에 참여할 기회는 자신감과 의사소통 기술, 적응력과 사회적 감각을 키우는 데 도움이 됩니다."
+description: "지역사회 생활에 참여하는 경험은 자폐·신경다양성 청년이 자신감과 의사소통 기술, 적응력, 사회적 감각을 키우는 데 도움이 됩니다."
 ---
 
 지역사회 참여는 성인기와 자립의 중요한 부분입니다. 자폐와 신경다양성 청년에게 지역사회 환경에 참여할 기회는 자신감과 의사소통 기술, 적응력과 사회적 감각을 키우는 데 도움이 됩니다.
