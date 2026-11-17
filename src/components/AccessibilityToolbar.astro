@@ -186,10 +186,15 @@ html[data-a11y-links="on"] a:not(.btn):not(.a11y-toggle):not(.a11y-read){
     const KEY = 'pupa-a11y';
     const state = { text: 100, contrast: false, spacing: false, links: false, motion: false };
 
-    // restore saved prefs
+    // restore saved prefs — only known keys, only valid values, so a damaged or
+    // tampered saved setting can never make the page unreadable
     try {
       const saved = JSON.parse(localStorage.getItem(KEY) || '{}');
-      Object.assign(state, saved);
+      if (saved && typeof saved === 'object') {
+        const t = Number(saved.text);
+        if (Number.isFinite(t)) state.text = Math.min(160, Math.max(80, Math.round(t / 10) * 10));
+        for (const k of ['contrast', 'spacing', 'links', 'motion']) state[k] = saved[k] === true;
+      }
     } catch (e) {}
 
     function apply() {
