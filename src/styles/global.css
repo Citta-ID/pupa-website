@@ -21,6 +21,10 @@
   --orange-700:#AB5B15;
   --orange-500:#F5821F;
   --orange-100:#FEEBD8;
+  /* Text-safe variants (WCAG AA 4.5:1 for small text) */
+  --orange-on-dark:#FFB877; /* orange text on --teal-900 (5.3:1) */
+  --teal-ink:  #007066;     /* small teal text on cream/tinted backgrounds (5.5:1 on cream) */
+  --label-ink: #6F6450;     /* small warm-grey labels (5.8:1 on white) */
   --line:      #E5E7EB;
   --cream:     #FBF5EB;
   --peach:     #FCE4CB;
@@ -92,7 +96,7 @@ img,svg{display:block;max-width:100%}
 
 .eyebrow{
   display:inline-block;font-size:.85rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--teal-700);background:var(--teal-100);padding:6px 14px;border-radius:999px;margin-bottom:20px;
+  color:var(--teal-900);background:var(--teal-100);padding:6px 14px;border-radius:999px;margin-bottom:20px;
 }
 .section-head{margin-bottom:36px}
 .section-head p{color:var(--ink-soft);margin-top:10px}

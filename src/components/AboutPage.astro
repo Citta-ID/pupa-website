@@ -129,6 +129,8 @@ const c = content[lang] ?? content.en;
 // P.U.P.A big-letter treatment metadata (shared across languages)
 const pupaLetters = ['P', 'U', 'P', 'A'];
 const pupaColors = ['var(--orange-500)', 'var(--teal-500)', 'var(--orange-700)', 'var(--teal-900)'];
+// Text-safe versions for the small labels and value names (the big letters keep the brand colours)
+const pupaText = ['var(--orange-700)', 'var(--teal-ink)', 'var(--orange-700)', 'var(--teal-900)'];
 const pupaIcons = [
   // Purpose — target
   '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/>',
@@ -183,7 +185,7 @@ const pupaIcons = [
 
         <div class="pupa-letters" aria-hidden="true">
           {c.values.map((v, i) => (
-            <div class="letter-col" data-reveal style={`color:${pupaColors[i]};--i:${i}`}>
+            <div class="letter-col" data-reveal style={`color:${pupaColors[i]};--label:${pupaText[i]};--i:${i}`}>
               <span class="letter-label">{v[0]}</span>
               <span class="big-letter">{pupaLetters[i]}<span class="letter-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={pupaIcons[i]}></svg></span></span>
             </div>
@@ -193,7 +195,7 @@ const pupaIcons = [
         <div class="value-defs">
           {c.values.map((v, i) => (
             <div class="value-def" data-reveal style={`--accent:${pupaColors[i]};--i:${i % 2}`}>
-              <h4 class="vd-name" style={`color:${pupaColors[i]}`}>{v[0]}</h4>
+              <h4 class="vd-name" style={`color:${pupaText[i]}`}>{v[0]}</h4>
               <p class="vd-text">{v[1]}</p>
               <span class="value-chip">{v[2]}</span>
             </div>
@@ -272,7 +274,7 @@ const pupaIcons = [
 .values-intro{max-width:64ch;margin:0 auto;color:var(--ink-soft)}
 .pupa-letters{display:flex;justify-content:center;align-items:flex-end;gap:12px;margin:32px 0 8px;flex-wrap:wrap}
 .letter-col{display:flex;flex-direction:column;align-items:center}
-.letter-label{font-family:'Inter',sans-serif;font-weight:700;font-size:1rem;margin-bottom:8px}
+.letter-label{color:var(--label,inherit);font-family:'Inter',sans-serif;font-weight:700;font-size:1rem;margin-bottom:8px}
 .big-letter{font-family:var(--font-display);font-weight:700;font-size:clamp(4.5rem,12vw,7.5rem);line-height:.9;position:relative}
 .letter-icon{position:absolute;top:-6px;right:-16px;width:46px;height:46px;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:50%;box-shadow:0 4px 14px rgba(11,68,65,.16)}
 .letter-icon svg{width:25px;height:25px}
