@@ -3,6 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import AccessibilityToolbar from '../components/AccessibilityToolbar.astro';
 import { routes, useTranslations, type Lang } from '../i18n/ui';
+import '../styles/fonts.css';
 import '../styles/global.css';
 
 interface Props {
@@ -37,6 +38,9 @@ var l=((navigator.languages&&navigator.languages[0])||navigator.language||'').to
 if(l==='id'||l.indexOf('id-')===0||l==='in'||l.indexOf('in-')===0){location.replace('/id/')}
 else if(l==='ko'||l.indexOf('ko-')===0){location.replace('/ko/')}
 }catch(e){}})();`;
+// Hides a photo that fails to load and lets its card show a placeholder instead
+// (replaces inline onerror="…" attributes, which a strict security policy blocks).
+const imgFallbackScript = `document.addEventListener('error',function(e){var t=e.target;if(t&&t.tagName==='IMG'&&t.hasAttribute('data-fallback')){t.style.display='none';if(t.parentElement)t.parentElement.classList.add('no-photo')}},true);`;
 const revealHeadScript = `(function(){try{var d=document.documentElement,m=false;
 try{m=!!JSON.parse(localStorage.getItem('pupa-a11y')||'{}').motion}catch(e){}
 if(m){d.setAttribute('data-a11y-motion','on');return}
@@ -60,6 +64,7 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {isHomeGateway && <script is:inline set:html={langRedirectScript} />}
   <script is:inline set:html={revealHeadScript} />
+  <script is:inline set:html={imgFallbackScript} />
   <title>{title}</title>
   <meta name="description" content={description} />
   {noindex && <meta name="robots" content="noindex" />}
@@ -116,9 +121,6 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
     ],
   })} />
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <a class="skip-link" href="#main">{t('a11y.skip')}</a>

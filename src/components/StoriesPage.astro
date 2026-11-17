@@ -72,7 +72,7 @@ const c = {
       <div class="story-grid">
         {stories.map((s, i) => (
           <a class="story-card" data-reveal style={`--i:${i % 3}`} href={`${storyBase}/${s.data.slug}/`}>
-            {s.data.image && <img src={s.data.image} alt="" loading="lazy" width="360" height="270" />}
+            {s.data.image && <img src={s.data.image} alt="" loading="lazy" width="360" height="270" sizes="(max-width: 600px) 100vw, 380px" />}
             <div class="story-card-body">
               <h3>{s.data.title}</h3>
               <span class="story-card-cta">{c.readCta}</span>

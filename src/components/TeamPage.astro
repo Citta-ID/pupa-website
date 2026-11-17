@@ -133,8 +133,7 @@ const team = [
       <div class="leader-grid">
         {leaders.map((l, i) => (
           <article class:list={['leader-card', i === leadOffsetIdx && leadOffsetCls]} data-reveal style={`--i:${i % 3}`}>
-            <img src={l.photo} alt={l.alt[lang] ?? l.alt.en} loading="lazy" width="360" height="440"
-                 onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" />
+            <img src={l.photo} alt={l.alt[lang] ?? l.alt.en} loading="lazy" width="360" height="440" data-fallback />
             <div class="leader-info">
               <p class="leader-role">{l.role[lang] ?? l.role.en}</p>
               <h3>{l.name}</h3>
@@ -152,7 +151,7 @@ const team = [
       <ul class="team-grid">
         {team.map((t, i) => (
           <li class="member" data-reveal style={`--i:${i % 4}`}>
-            <img src={t.img} alt="" loading="lazy" width="280" height="340" />
+            <img src={t.img} alt="" loading="lazy" width="280" height="340" sizes="(max-width: 960px) 50vw, 280px" />
             <span>{t.name}</span>
           </li>
         ))}

@@ -105,7 +105,7 @@ const c = content[lang] ?? content.en;
       {members.map((m, i) => (
         <article class={`board-row ${i % 2 ? 'reverse' : ''}`}>
           <div class="board-photo">
-            <img class={i % 2 ? 'blob-alt' : 'blob'} src={`/images/board/${m.slug}.jpg`} alt={`${m.name}, ${m.role[lang] ?? m.role.en} at PUPA Center`} loading="lazy" width="360" height="450" />
+            <img class={i % 2 ? 'blob-alt' : 'blob'} src={`/images/board/${m.slug}.jpg`} alt={`${m.name}, ${m.role[lang] ?? m.role.en} at PUPA Center`} loading="lazy" width="360" height="450" sizes="(max-width: 960px) 260px, 360px" />
           </div>
           <div class="board-info">
             <p class="board-role">{m.role[lang] ?? m.role.en}</p>

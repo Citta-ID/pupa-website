@@ -1,7 +1,7 @@
 
 # PUPA Center — Privacy Policy
 
-**Last updated: 18 July 2026**
+**Last updated: 17 November 2026**
 
 *A note for young readers: if you are under 18 or have a guardian, please read this policy together with your parent or guardian, so you can decide together how your information is shared with us.*
 
@@ -28,7 +28,7 @@ Our website is an informational site. We keep what happens in your browser to a 
 
 * **No tracking.** We do not use advertising cookies, analytics services, or tracking scripts of any kind.
 * **Technical data.** Our hosting provider (Cloudflare) processes standard technical information — such as your IP address and the pages requested — as necessary to deliver the site securely and reliably. We do not use this information to identify visitors.
-* **Fonts.** Our pages load fonts from Google Fonts, which means your browser sends a standard request (including your IP address) to Google's servers. This is governed by Google's privacy policy.
+* **Fonts.** Our fonts are stored on our own website, so loading a page does not send any request to a third-party font service.
 * **Settings stored on your device.** If you choose a language with the language toggle, or adjust our accessibility settings (such as text size or contrast), those preferences are saved in your own browser's local storage so the site remembers them. They are never transmitted to us, and you can clear them at any time through your browser settings.
 * **External links.** Links to WhatsApp, Instagram, YouTube, and Google Maps take you to services governed by their own privacy policies.
 

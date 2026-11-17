@@ -160,8 +160,7 @@ const unitIcons = [
         {c.units.map((u, i) => (
           <article class="unit-card" data-reveal style={`--i:${i % 2}`}>
             <div class="unit-photo">
-              <img src={unitImgs[i]} alt="" loading="lazy" width="480" height="320"
-                   onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" />
+              <img src={unitImgs[i]} alt="" loading="lazy" width="480" height="320" sizes="(max-width: 960px) 40vw, 220px" data-fallback />
               <span class="unit-photo-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" set:html={unitIcons[i]}></svg>
               </span>

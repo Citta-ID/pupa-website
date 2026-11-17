@@ -88,7 +88,7 @@ const storyImgs = ['/images/afm-9305.jpg', '/images/raissa-story.jpg', '/images/
   <!-- ACTIVITY PHOTO STRIP -->
   <section class="strip">
     <div class="strip-row">
-      {strip.map((src, i) => <img src={src} alt={alts.strip[i]} loading="lazy" width="320" height="240" />)}
+      {strip.map((src, i) => <img src={src} alt={alts.strip[i]} loading="lazy" width="320" height="240" sizes="(max-width: 960px) 50vw, 20vw" />)}
     </div>
   </section>
 
@@ -172,9 +172,9 @@ const storyImgs = ['/images/afm-9305.jpg', '/images/raissa-story.jpg', '/images/
   <section class="story">
     <div class="wrap story-grid">
       <div class="story-photos" aria-hidden="true">
-        <img class="blob" data-reveal style="--i:0" src={storyImgs[0]} alt="" loading="lazy" width="300" height="300" />
-        <img class="blob-alt" data-reveal style="--i:1" src={storyImgs[1]} alt="" loading="lazy" width="240" height="240" />
-        <img class="blob" data-reveal style="--i:2" src={storyImgs[2]} alt="" loading="lazy" width="200" height="200" />
+        <img class="blob" data-reveal style="--i:0" src={storyImgs[0]} alt="" loading="lazy" width="300" height="300" sizes="(max-width: 960px) 60vw, 300px" />
+        <img class="blob-alt" data-reveal style="--i:1" src={storyImgs[1]} alt="" loading="lazy" width="240" height="240" sizes="(max-width: 960px) 45vw, 240px" />
+        <img class="blob" data-reveal style="--i:2" src={storyImgs[2]} alt="" loading="lazy" width="200" height="200" sizes="(max-width: 960px) 38vw, 200px" />
       </div>
       <div data-reveal style="--i:1">
         <h2>{c.storyTitle}</h2>

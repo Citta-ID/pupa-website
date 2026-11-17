@@ -1,7 +1,7 @@
 
 # PUPA Center — Kebijakan Privasi
 
-**Terakhir diperbarui: 18 Juli 2026**
+**Terakhir diperbarui: 17 November 2026**
 
 *Catatan untuk pembaca muda: jika Anda berusia di bawah 18 tahun atau memiliki wali, bacalah kebijakan ini bersama orang tua atau wali Anda, agar kalian dapat memutuskan bersama bagaimana informasi Anda dibagikan kepada kami.*
 
@@ -28,7 +28,7 @@ Situs web kami bersifat informasional. Kami menjaga agar aktivitas di peramban (
 
 * **Tanpa pelacakan.** Kami tidak menggunakan cookie iklan, layanan analitik, atau skrip pelacak dalam bentuk apa pun.
 * **Data teknis.** Penyedia hosting kami (Cloudflare) memproses informasi teknis standar — seperti alamat IP dan halaman yang diminta — sebatas yang diperlukan untuk menayangkan situs secara aman dan andal. Kami tidak menggunakan informasi ini untuk mengidentifikasi pengunjung.
-* **Font.** Halaman kami memuat font dari Google Fonts, sehingga peramban Anda mengirimkan permintaan standar (termasuk alamat IP Anda) ke server Google. Hal ini tunduk pada kebijakan privasi Google.
+* **Font.** Font kami disimpan di situs web kami sendiri, sehingga membuka halaman tidak mengirimkan permintaan apa pun ke layanan font pihak ketiga.
 * **Pengaturan yang tersimpan di perangkat Anda.** Jika Anda memilih bahasa melalui tombol bahasa, atau mengubah pengaturan aksesibilitas kami (seperti ukuran teks atau kontras), preferensi tersebut disimpan di penyimpanan lokal peramban Anda sendiri agar situs dapat mengingatnya. Preferensi ini tidak pernah dikirimkan kepada kami, dan Anda dapat menghapusnya kapan saja melalui pengaturan peramban.
 * **Tautan eksternal.** Tautan ke WhatsApp, Instagram, YouTube, dan Google Maps akan membawa Anda ke layanan yang tunduk pada kebijakan privasi masing-masing.
 
