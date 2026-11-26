@@ -47,3 +47,9 @@
 # introduction session or visit). pupacenter.org/daftar is the link admin sends and the home page's main button.
 /daftar https://family.pupacenter.org/keluarga/daftar 302
 /daftar/ https://family.pupacenter.org/keluarga/daftar 302
+
+# A family's personal booking link (the Director, 26 November 2026: "maybe we can shorten the links too"): PUPA HQ sends
+# pupacenter.org/j/<token>; PUPA Family opens the booking page with the family's details filled in. The token passes
+# through as it is.
+/j/:token https://family.pupacenter.org/keluarga/janji/l/:token 302
+/j/:token/ https://family.pupacenter.org/keluarga/janji/l/:token 302
