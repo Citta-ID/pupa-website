@@ -36,3 +36,9 @@
 /id/sumber-daya/berita-pembaruan /id/sumber-daya/ 301
 /id/hubungi /id/kontak/ 301
 /id/laporan-tahunan /id/sumber-daya/ 301
+
+# The visit form (the Director, 26 November 2026): one short, general link for families, partners, funders and
+# government offices alike. pupacenter.org forwards to www with the path, so pupacenter.org/kunjungan lands here.
+# 302, not 301, so browsers do not keep it if the form ever moves.
+/kunjungan https://family.pupacenter.org/keluarga/kunjungan 302
+/kunjungan/ https://family.pupacenter.org/keluarga/kunjungan 302
