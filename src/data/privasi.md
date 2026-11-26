@@ -9,7 +9,7 @@
 
 PUPA Center (Yayasan Perisai Unggul Pelita Anugrah) — "PUPA", "kami" — adalah pusat pengembangan di Tangerang, Indonesia, yang menyediakan pendampingan kecakapan hidup dan kesiapan kerja bagi anak muda neurodivergen. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan melindungi data pribadi ketika Anda mengunjungi situs web kami atau berkomunikasi dengan kami, termasuk melalui layanan pesan WhatsApp dan Telegram kami.
 
-**Kontak:** Email: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko The Prominence Blok 38E No. 42-43, Jl. Jalur Sutera, Alam Sutera, Kota Tangerang, Banten 15143, Indonesia · +62 818 533 698
+**Kontak:** Email: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko Prominence Blok 38E No. 42-43, Jl. Sutera Barat Boulevard, Alam Sutera, Tangerang 15143, Indonesia · +62 818 533 698
 
 ## 2. Ruang Lingkup
 
@@ -117,6 +117,6 @@ Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Versi terbaru akan kam
 
 Jika Anda memiliki pertanyaan mengenai kebijakan ini atau cara kami menangani data pribadi Anda, silakan hubungi:
 
-**PUPA Center:** Email: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko The Prominence Blok 38E No. 42-43, Jl. Jalur Sutera, Alam Sutera, Kota Tangerang, Banten 15143, Indonesia · +62 818 533 698
+**PUPA Center:** Email: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko Prominence Blok 38E No. 42-43, Jl. Sutera Barat Boulevard, Alam Sutera, Tangerang 15143, Indonesia · +62 818 533 698
 
 *Kebijakan ini mencerminkan praktik kami per tanggal di atas serta komitmen kami untuk menangani data pribadi Anda secara bertanggung jawab sesuai Undang-Undang Pelindungan Data Pribadi (UU No. 27 Tahun 2022).*
