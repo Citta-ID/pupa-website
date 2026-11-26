@@ -9,7 +9,7 @@
 
 PUPA 센터(법인명: Yayasan Perisai Unggul Pelita Anugrah, 이하 "PUPA", "우리")는 인도네시아 탕에랑에 있는 발달 지원 센터로, 신경다양성 청년들의 생활 기술과 취업 준비를 돕고 있습니다. 이 개인정보 처리방침은 여러분이 우리 웹사이트를 방문하거나 WhatsApp·Telegram 메시지 서비스를 포함한 여러 방법으로 우리와 소통할 때, 우리가 개인정보를 어떻게 수집·이용·보관·보호하는지 설명합니다.
 
-**연락처:** 이메일: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko Prominence Blok 38E No. 42-43, Jl. Sutera Barat Boulevard, Alam Sutera, Tangerang 15143, Indonesia · +62 818 533 698
+**연락처:** 이메일: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko The Prominence Blok 38E No. 42-43, Jl. Jalur Sutera, Alam Sutera, Kota Tangerang, Banten 15143, Indonesia · +62 818 533 698
 
 ## 2. 적용 범위
 
@@ -117,6 +117,6 @@ PUPA는 청년들을 지원하며, 주로 부모·보호자와 소통합니다. 
 
 이 방침이나 개인정보 처리에 관해 궁금한 점이 있으면 아래로 연락해 주세요.
 
-**PUPA Center:** 이메일: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko Prominence Blok 38E No. 42-43, Jl. Sutera Barat Boulevard, Alam Sutera, Tangerang 15143, Indonesia · +62 818 533 698
+**PUPA Center:** 이메일: [info@pupacenter.org](mailto:info@pupacenter.org) · Ruko The Prominence Blok 38E No. 42-43, Jl. Jalur Sutera, Alam Sutera, Kota Tangerang, Banten 15143, Indonesia · +62 818 533 698
 
 *이 방침은 위 날짜 기준의 우리 실무를 반영하며, 인도네시아 개인정보 보호법(UU No. 27 Tahun 2022)에 따라 여러분의 개인정보를 책임 있게 다루겠다는 우리의 약속을 담고 있습니다.*
