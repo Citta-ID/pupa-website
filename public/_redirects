@@ -42,3 +42,8 @@
 # 302, not 301, so browsers do not keep it if the form ever moves.
 /kunjungan https://family.pupacenter.org/keluarga/kunjungan 302
 /kunjungan/ https://family.pupacenter.org/keluarga/kunjungan 302
+
+# Kenalan, the first step for every family (the Director, 26 November 2026: the enquiry first, before any video,
+# introduction session or visit). pupacenter.org/daftar is the link admin sends and the home page's main button.
+/daftar https://family.pupacenter.org/keluarga/daftar 302
+/daftar/ https://family.pupacenter.org/keluarga/daftar 302

@@ -1,5 +1,4 @@
 ---
-import { waLink } from '../utils/whatsapp';
 import Layout from '../layouts/Layout.astro';
 import { home } from '../i18n/home';
 import { routes, type Lang } from '../i18n/ui';
@@ -74,7 +73,8 @@ const storyImgs = ['/images/afm-9305.jpg', '/images/raissa-story.jpg', '/images/
         <h1>{c.heroTitle}</h1>
         <p class="lede">{c.heroLede}</p>
         <div class="hero-ctas">
-          <a class="btn btn-primary" href={waLink(lang, 'home')} rel="noopener">{c.ctaVisit}</a>
+          {/* Kenalan first (the Director, 26 November 2026): the enquiry before any visit. pupacenter.org/daftar, the link to share, forwards here. */}
+          <a class="btn btn-primary" href="https://family.pupacenter.org/keluarga/daftar">{c.ctaVisit}</a>
           <a class="btn btn-primary" href={p('programs')}>{c.ctaPrograms}</a>
         </div>
       </div>
