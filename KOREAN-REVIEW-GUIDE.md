@@ -16,6 +16,19 @@ All 8 parenting-guidance articles are now in Korean (src/content/blog/ko-*.md). 
 ## Priority review: the 12 personal bios
 The Board and Team bios (BoardPage.astro / TeamPage.astro, `ko:` key in each member's `bio:`) are AI-translated descriptions of real people — please give these the closest read of anything on the site, and adjust anything that does not match how each person would want to be described.
 
+## Next batch: legal identity line (added 27 November 2026)
+Short, new text, AI-translated. Please check it reads naturally and matches the English exactly:
+
+- **Legal line**, shown in the footer of every Korean page and in the About page story (src/i18n/ui.ts → `ko:` → `footer.legalLine`, and src/components/AboutPage.astro → `ko:` → `story`, 4th paragraph). The two must stay identical:
+  - KO: PUPA 센터는 2014년 12월 2일 설립된 Yayasan Perisai Unggul Pelita Anugrah가 운영하며, 2015년 1월에 문을 열었습니다.
+  - EN source: PUPA Center is run by Yayasan Perisai Unggul Pelita Anugrah, established on 2 December 2014, and opened to the public in January 2015.
+- **Search-engine description** (not visible on the page; read by Google and AI assistants): src/layouts/Layout.astro → the `lang === 'ko'` description.
+  - KO: 인도네시아 탕에랑에서 신경다양성 청년들의 생활 기술과 취업 준비를 돕는 발달 지원 센터입니다.
+  - EN source: A development center for life skills and work readiness for neurodivergent young adults in Tangerang, Indonesia.
+- **Footer copyright** now uses the legal name in Latin script (`footer.legalName`), replacing "PUPA 재단". The yayasan's legal name stays untranslated, as in the Korean privacy policy.
+
+Points to confirm: 설립된 for the yayasan's legal establishment vs 문을 열었습니다 for the public opening; and whether 가 운영하며 reads well after a long Latin-script name.
+
 ## Terminology choices for the reviewer to confirm
 - neurodivergent → 신경다양인 / 신경다양성 (adjectival)
 - Growth Journeys → 성장 이야기
