@@ -38,6 +38,7 @@ Indonesian versions live under https://www.pupacenter.org/id/ and Korean version
 - Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJ8eb_VSX3aS4RK0zIOzf78fg
 - Instagram: https://www.instagram.com/pupa.center
 - YouTube: https://www.youtube.com/@PUPACenter
+- Wikidata: https://www.wikidata.org/wiki/Q142310506
 
 ## Language & terminology
 
