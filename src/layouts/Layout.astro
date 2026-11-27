@@ -88,16 +88,26 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
+    '@id': 'https://www.pupacenter.org/#organization',
     name: 'PUPA Center',
-    alternateName: 'Yayasan PUPA Center',
+    legalName: 'Yayasan Perisai Unggul Pelita Anugrah',
+    alternateName: ['Yayasan PUPA', 'PUPA'],
     url: 'https://www.pupacenter.org',
     logo: 'https://www.pupacenter.org/images/brand/pupa-logo.png',
     image: 'https://www.pupacenter.org/images/brand/og-image.jpg',
     description: lang === 'id'
       ? 'Pusat pengembangan kecakapan hidup dan kesiapan kerja bagi anak muda neurodivergen di Tangerang, Indonesia.'
+      : lang === 'ko'
+      ? '인도네시아 탕에랑에서 신경다양성 청년들의 생활 기술과 취업 준비를 돕는 발달 지원 센터입니다.'
       : 'A development center for life skills and work readiness for neurodivergent young adults in Tangerang, Indonesia.',
     slogan: 'Transform to shine',
-    foundingDate: '2015',
+    foundingDate: '2014-12-02',
+    audience: {
+      '@type': 'PeopleAudience',
+      audienceType: 'Neurodivergent young adults',
+      suggestedMinAge: 16,
+      suggestedMaxAge: 25,
+    },
     email: 'info@pupacenter.org',
     telephone: '+62818533698',
     address: {
@@ -108,7 +118,8 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
       postalCode: '15143',
       addressCountry: 'ID',
     },
-    geo: { '@type': 'GeoCoordinates', latitude: -6.2288, longitude: 106.6539 },
+    geo: { '@type': 'GeoCoordinates', latitude: -6.2266414, longitude: 106.6573118 },
+    hasMap: 'https://www.google.com/maps/place/?q=place_id:ChIJ8eb_VSX3aS4RK0zIOzf78fg',
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'],
@@ -116,6 +127,7 @@ els.forEach(function(el){if(el.getBoundingClientRect().top<h*0.92){el.classList.
     },
     areaServed: { '@type': 'Place', name: 'Tangerang, Banten, Indonesia' },
     sameAs: [
+      'https://www.google.com/maps/place/?q=place_id:ChIJ8eb_VSX3aS4RK0zIOzf78fg',
       'https://www.instagram.com/pupa.center',
       'https://www.youtube.com/@PUPACenter',
     ],

@@ -37,6 +37,17 @@
 /id/hubungi /id/kontak/ 301
 /id/laporan-tahunan /id/sumber-daya/ 301
 
+# Old WordPress English pages (still indexed with the 2015/2022 history and the retired alsut@ address).
+# Specific pages first, then a catch-all: the current site has no /en/ paths (English lives at the root).
+/en/home-page-english / 301
+/en/home-page-english/ / 301
+/en/about-en /about/ 301
+/en/about-en/ /about/ 301
+/en/partner-en /get-involved/ 301
+/en/partner-en/ /get-involved/ 301
+/en / 301
+/en/* / 301
+
 # The visit form (the Director, 26 November 2026): one short, general link for families, partners, funders and
 # government offices alike. pupacenter.org forwards to www with the path, so pupacenter.org/kunjungan lands here.
 # 302, not 301, so browsers do not keep it if the form ever moves.

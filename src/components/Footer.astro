@@ -85,6 +85,7 @@ const wa = waLink(lang, 'website');
     </div>
 
     <div class="foot-bottom">
+      <p class="foot-legalline">{t('footer.legalLine')}</p>
       <p>© {year} {t('footer.legalName')}. {t('footer.rights')}</p>
       <p class="foot-legal"><a href={routes.privacy[lang]}>{t('footer.privacy')}</a><a href={routes.accessibility[lang]}>{t('footer.accessibility')}</a></p>
     </div>
@@ -137,6 +138,7 @@ li a:hover{color:#fff;text-decoration:underline}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding:22px 0 32px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;font-size:.92rem}
 .foot-bottom a{color:#C8DEDC}
 .foot-legal{display:flex;gap:20px}
+.foot-legalline{flex-basis:100%;margin:0}
 
 @media (max-width:960px){
   .cta-grid{grid-template-columns:1fr;gap:24px}.cta-actions{justify-content:flex-start;flex-wrap:wrap}

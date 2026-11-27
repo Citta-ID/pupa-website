@@ -1,6 +1,6 @@
 # PUPA Center
 
-> PUPA Center (legal name: Yayasan Perisai Unggul Pelita Anugrah / PUPA Foundation) is a development center in Alam Sutera, Tangerang, Indonesia, supporting neurodivergent young adults aged 16–25 to build life skills, work readiness, and real independence — with dignity, and with their families alongside them. Tagline: "Transform to shine."
+> PUPA Center (legal name: Yayasan Perisai Unggul Pelita Anugrah; also known as Yayasan PUPA) is a development center in Alam Sutera, Tangerang, Indonesia, supporting neurodivergent young adults aged 16–25 to build life skills, work readiness, and real independence — with dignity, and with their families alongside them. Tagline: "Transform to shine."
 
 The website is trilingual: English at /, Indonesian (Bahasa Indonesia) at /id/, Korean at /ko/.
 
@@ -29,10 +29,13 @@ Indonesian versions live under https://www.pupacenter.org/id/ and Korean version
 
 ## Facts
 
+- Legal entity: Yayasan Perisai Unggul Pelita Anugrah, established on 2 December 2014. PUPA Center opened to the public in January 2015.
+- Ages served: neurodivergent young adults aged 16–25
 - Location: Ruko The Prominence Blok 38E No. 42-43, Jl. Jalur Sutera, Alam Sutera, Kota Tangerang, Banten 15143, Indonesia
 - Office hours: Monday–Friday, 08:30–16:30 (WIB). Participant activities run 09:00–15:00 (WIB).
 - Email: info@pupacenter.org
 - Phone / WhatsApp: +62 818 533 698
+- Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJ8eb_VSX3aS4RK0zIOzf78fg
 - Instagram: https://www.instagram.com/pupa.center
 - YouTube: https://www.youtube.com/@PUPACenter
 
